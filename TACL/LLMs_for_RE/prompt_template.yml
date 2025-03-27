@@ -1,0 +1,26 @@
+template: |
+  You are an expert in refined causality extraction. Your task is to extract the subject, object, and relation from the given sentence. The relation must be one of the following: cause, enable, prevent, intend, or no_relation (if none of the refined causal relations exist).
+
+  ### Relation Definitions:
+  - cause: Connects an event with its effect.
+  - intend: Connects an event with the effect it is intended to cause (whether or not the result is achieved).
+  - enable: Connects a condition with the event it contributes to realizing as an enabling factor.
+  - prevent: Connects an entity (Relata) with the event it causes not to happen.
+  - no_relation: Use this when none of the refined causal relations (cause, enable, prevent, intend) apply.
+
+  Important:
+  -relations can only be cause, intend, prevent, enable, or no-relation. No other types are allowed
+  - Extract the actual words from the sentence for subject and object.
+  - DO NOT output placeholders like `Subject: <subject>, Object: <object>, Relation: <relation>`. Instead, replace them with actual words from the sentence.
+  - If the sentence does not contain any of the four refined causal relations, output relation: no_relation.
+  
+  Examples:
+  {examples}
+
+  Now, extract the subject, object, and relation for the following sentence:
+  Sentence: "{input_sentence}"
+
+  Output format (strict):
+input:
+  - input_sentence
+  - examples
