@@ -1,0 +1,629 @@
+context,triplets
+The government passed a law to increase access to financial services and reduce financial exclusion.,<triplet> passed <subj> reduce <obj> intend
+The African Union has launched a new initiative to promote economic development.,<triplet> initiative <subj> promote <obj> enable
+"The government passed a law to increase access to childcare, in an effort to reduce the burden on working families.",<triplet> passed <subj> reduce <obj> intend
+"The government has passed a law to increase access to public transportation, in an effort to reduce traffic congestion.",<triplet> passed <subj> reduce <obj> intend
+The Canadian government has announced a new program to help Indigenous communities access education and employment opportunities.,<triplet> program <subj> access <obj> enable
+"The government has taken steps to prevent the spread of hate speech, including introducing new laws to regulate online platforms.",<triplet> taken <subj> Hate Speech <obj> prevent
+The United Nations has passed a resolution to promote the rights of indigenous peoples around the world.,<triplet> resolution <subj> promote <obj> enable
+"The government has implemented a new policy to provide free education to all citizens, in an effort to promote economic growth and social development.",<triplet> implemented <subj> promote <obj> intend
+The move has been seen as part of efforts to shield the increasingly unpopular ruling United Russia party from real competition ahead of parliamentary elections in September.,<triplet> move <subj> competition <obj> prevent
+"The government is introducing a new law to protect the rights of women, in an effort to promote gender equality and combat discrimination.",<triplet> introducing <subj> promote <obj> intend
+"The multi-year Everbridge symposium series offers global leaders a valuable forum to exchange best practices on how to protect people and business assets; build back and grow revenue streams; increase business resiliency; and mitigate potential threats like IT outages, cyber-attacks, natural disasters, and many other critical events.",<triplet> practices <subj> threats <obj> prevent
+The government has also announced plans to invest in economic development programs to create jobs and stimulate economic growth.,<triplet> invest <subj> create jobs and stimulate economic growth <obj> enable
+The European Union has imposed economic sanctions on Russia in an effort to prevent the country from further destabilizing Ukraine.,<triplet> Sanctions <subj> Destabilizing <obj> prevent
+The government has implemented a series of laws to prevent the illegal trade of endangered species.,<triplet> laws <subj> illegal trade <obj> prevent
+"The new facility was to have been the world's most advanced cereal manufacturing plant, and Kellogg's largest construction project. ",<triplet> cereal <subj> largest <obj> 0
+The United Nations has imposed an arms embargo on Syria in an effort to prevent the government from committing human rights abuses.,<triplet> Arms embargo <subj> abuses <obj> prevent
+The United Kingdom has announced a new immigration policy that will make it easier for skilled workers from outside the European Union to work in the country.,<triplet> policy <subj> easier <obj> enable
+The government passed a law to increase taxes on the wealthy in an effort to reduce income inequality.,<triplet> passed <subj> reduce <obj> intend
+"The government passed a law to increase funding for public transportation, in an effort to reduce traffic congestion and air pollution.",<triplet> increase <subj> reduce <obj> intend
+The government has implemented a series of measures to prevent the spread of hate speech.,<triplet> measures <subj> hate <obj> prevent
+The European Union has implemented a new program to provide free job training for unemployed individuals.,<triplet> program <subj> training <obj> enable
+The United Nations has created a new fund to help countries affected by natural disasters access relief and recovery resources.,<triplet> fund <subj> access <obj> enable
+"The government is introducing a new law to protect workers' rights, in an effort to ensure fair wages and safe working conditions.",<triplet> introducing <subj> ensure <obj> intend
+"The government has taken steps to prevent the use of human trafficking, including introducing new laws to regulate the movement of people across borders.",<triplet> laws <subj> Trafficking <obj> prevent
+The United Nations has imposed a no-fly zone over Syria in an effort to prevent further violence against civilians.,<triplet> No-fly <subj> Violence <obj> prevent
+",The government has implemented a series of reforms to protect the rights of workers and promote labor rights.",<triplet> protect <subj> promote <obj> intend
+The United Nations has declared a new resolution to end the use of nuclear weapons.,<triplet> resolution <subj> end <obj> enable
+The government passed a law to protect the rights of victims of discrimination in insurance and ensure their access to services.,<triplet> passed <subj> ensure <obj> intend
+"In addition, CMS reported third-quarter net of $68.2 million, or 83 cents a share, up from $66.8 million, or 81 cents a share, a year ago. ","<triplet> net <subj> addition, <obj> 0"
+The United Nations has imposed an arms embargo on Libya in an effort to prevent the country from destabilizing the region.,<triplet> embargo <subj> destabilizing <obj> prevent
+"It will have 11.8 million shares outstanding after the offering, with Healthdyne owning about 65% of the total. ",<triplet> offering <subj> owning <obj> cause
+N.V. DSM said net income in the third quarter jumped 63% as the company had substantially lower extraordinary charges to account for a restructuring program.,<triplet> charges <subj> jumped <obj> cause
+The government has implemented a series of measures to prevent the illegal sale of firearms.,<triplet> measures <subj> sale <obj> prevent
+"The government has implemented a series of measures to prevent the exploitation of natural resources, including increased monitoring of environmental practices and increased penalties for companies that violate environmental regulations.",<triplet> Monitoring <subj> Resources <obj> prevent
+"The government has implemented a series of measures to prevent the spread of misinformation, including increased fact-checking and increased regulation of online content.",<triplet> Fact-checking <subj> Misinformation <obj> prevent
+The government implemented a new policy to promote job training and education.,<triplet> implemented <subj> promote <obj> intend
+The government has also committed to investing in infrastructure projects to create jobs and stimulate economic growth.,<triplet> investing <subj> create <obj> enable
+The government has implemented a series of laws to prevent the exploitation of natural resources.,<triplet> laws <subj> exploitation <obj> prevent
+The United Nations has adopted a resolution calling for an end to the use of nuclear weapons in any form.,<triplet> resolution <subj> end <obj> enable
+"The government has passed a law to increase the availability of healthcare services, in an effort to improve public health.",<triplet> passed <subj> improve <obj> intend
+"The government has taken steps to prevent the use of tax evasion, including introducing new laws to regulate the payment of taxes.",<triplet> regulate <subj> Evasion <obj> prevent
+The United States has imposed economic sanctions on Venezuela in an effort to prevent the country from destabilizing the region.,<triplet> Economic sanctions <subj> destabilizing <obj> prevent
+The United Nations has imposed an arms embargo on North Korea in an effort to prevent further violence and human rights abuses.,<triplet> embargo <subj> violence <obj> prevent
+The government passed a law to increase the availability of public transportation in order to reduce traffic congestion and improve air quality.,<triplet> passed <subj> improve <obj> intend
+The government passed a law to protect the rights of refugees and ensure access to basic services.,<triplet> passed <subj> protect <obj> intend
+",The government passed a law to increase funding for housing assistance, in an effort to reduce homelessness.",<triplet> passed <subj> reduce <obj> intend
+"Net income includes an extraordinary gain of about $100,000 from the reversal of bad debt and interest income. ",<triplet> reversal <subj> gain <obj> cause
+"""Once again we have turned to our friends in Portugal to help both UEFA and the Champions League and I am, as always, very grateful to the FPF and the Portuguese government for agreeing to stage the match at such short notice,"" said UEFA president Aleksander Ceferin.",<triplet> Portugal <subj> stage <obj> enable
+The United Nations has adopted a resolution to strengthen the global response to the COVID-19 pandemic.,<triplet> resolution <subj> strengthen <obj> enable
+"U.S. andKuwaiti officials say there are reports that large numbers ofcivilians from Kuwait City are being rounded up and held byIraqi troops, apparently either for use as human shields orfor use later in bargaining once the war is over.   ",<triplet> over. <subj> in <obj> 0
+The Canadian government has announced a new strategy to improve access to education and training.,<triplet> announced  <subj> improve <obj> enable
+The government has also announced that it will be investing in new economic policies to promote economic growth and reduce poverty.,<triplet> investing <subj> promote <obj> enable
+"Alabama issued a warning to drivers Thursday night, urging them to stay off icy roads as driving conditions were "" becoming dangerous "" with numerous accidents reported.",<triplet> becoming <subj> urging <obj> cause
+The government passed a law to increase the number of public parks and green spaces in an effort to improve air quality.,<triplet> passed <subj> improve <obj> intend
+"Several EU countries have restricted the use of AstraZeneca's vaccine to older people, typically over 55 or 60.",<triplet> countries <subj> vaccine <obj> prevent
+The United States and its allies have imposed economic sanctions on Russia in an effort to prevent the country from interfering in other countries' affairs.,<triplet> Sanctions <subj> Interfering <obj> prevent
+"The government has implemented a new policy to provide tax credits to businesses that hire new employees, in an effort to reduce unemployment.",<triplet> implemented <subj> reduce <obj> intend
+The European Union has passed a new law to reduce carbon emissions by 40% by,<triplet> law <subj> reduce <obj> enable
+The United Nations has also passed a resolution condemning the use of chemical weapons in Syria.,<triplet> resolution <subj> condemning <obj> enable
+Authoritarian China regards democratic and self-ruled Taiwan as its own territory and works to keep the island from becoming diplomatically isolated.,<triplet> works <subj> becoming <obj> prevent
+The United States has imposed sanctions on Iran in an effort to prevent the government from further developing nuclear weapons.,<triplet> Sanctions <subj> developing <obj> prevent
+"General Motors Corp. wants to buy as much as 15% of Jaguar PLC, marking its first salvo in a possible full-scale battle against Ford Motor Co. for control of the British car maker.    ",<triplet> buy <subj> control <obj> intend
+The United Nations has imposed an arms embargo on Yemen in an effort to prevent the government from using weapons against its own citizens.,<triplet> Arms embargo <subj> using <obj> prevent
+"Lawrence Insurance also sold 3.2 million of its shares for $7.125 each to its parent, Lawrence Group Inc. Lawrence Insurance, based in Albany, N.Y., plans to use the $22.5 million in proceeds to help finance the acquisition of United Republic.    ",<triplet> use <subj> help <obj> intend
+The government has implemented a series of laws to protect citizens from discrimination.,<triplet> Laws <subj> Discrimination <obj> prevent
+"The government has passed a new law to increase the availability of affordable healthcare, in an effort to reduce the number of uninsured citizens.",<triplet> passed <subj> reduce <obj> intend
+"Unisys said that should help it save $500 million a year in costs, again at the high end of the previously reported range of $400 million to $500 million.    ",<triplet> million <subj> end <obj> 0
+"The White House revealed yesterday that the deposed Kuwaiti government had formally requested the U.S. to enforce the full trade embargo imposed by the United Nations on Iraq, allowing the U.S. and other countries to start blocking ships carrying Iraqi goods immediately.",<triplet> requested <subj> blocking <obj> enable
+Hudson's Bay Co. announced terms of a previously proposed rights issue that is expected to raise about 396 million Canadian dollars (US$337 million) net of expenses.,<triplet> raise <subj> announced <obj> intend
+The United Nations has imposed an arms embargo on Syria in an effort to prevent further violence and human rights abuses.,<triplet> Arms embargo <subj> Violence <obj> prevent
+" ,The government of China has implemented a new tax system to reduce inequality and promote economic growth.",<triplet> tax <subj> reduce <obj> intend
+"The government has introduced a new program to provide free education to all children, in an effort to reduce inequality and promote social mobility.",<triplet> introduced <subj> promote <obj> intend
+",The government passed a law to increase funding for job training programs, in an effort to reduce unemployment.",<triplet> passed <subj> reduce <obj> intend
+The government launched a new initiative to promote gender equality.,<triplet> launched <subj> promote <obj> intend
+",The government has implemented a series of reforms to promote religious freedom and reduce discrimination.",<triplet> promote <subj> religious <obj> intend
+The Supreme Court statement was issued as Prime Minister Pedro Sanchez's government was gearing up to grant a pardon to the separatists as a way of advancing talks over the Catalan separatist crisis.,<triplet> government <subj> talks <obj> enable
+Stock-index arbitrage -- the computer-guided buying and selling of stocks with offsetting trades in stock-index futures to profit from fleeting price discrepancies -- affects the OTC market directly through the 31 stocks included in Standard amp Poor's 500-stock index.,<triplet> to <subj> trades <obj> 0
+The government passed a law to increase access to public services and reduce poverty.,<triplet> passed <subj> reduce <obj> intend
+He also rejected reports that his departure stemmed from disappointment the general manager's post had n't  also led to a board directorship at the London-based news organization.,<triplet> the <subj> organization. <obj> 0
+"The government is introducing a new law to protect the rights of indigenous people, in an effort to ensure their cultural heritage is respected.",<triplet> introducing <subj> ensure <obj> intend
+The United Nations has imposed a naval blockade on Somalia in an effort to prevent the country from exporting weapons.,<triplet> Naval blockade <subj> Exporting <obj> prevent
+Last Friday's announcement was the first official word that the project was in trouble and that the company's plans for a surge in market share may have been overly optimistic.,<triplet> trouble <subj> may <obj> 0
+The government passed a law to protect the rights of workers.,<triplet> passed <subj> protect <obj> intend
+The United States has imposed economic sanctions on Iran in an effort to prevent the country from developing nuclear weapons.,<triplet> Sanctions <subj> Nuclear <obj> prevent
+The government has implemented a series of measures to prevent the misuse of public funds for political gain.,<triplet> measures <subj> misuse <obj> prevent
+"The company's confidence in its VzLinux distro has led to an in-house conversion of more than 200+ CentOS servers, ensuring Virtuozzo's infrastructure is future-proofed well beyond December 2021 when CentOS is slated for end-of-life.",<triplet> VzLinux <subj> future-proofed <obj> enable
+"Columbia Savings amp Loan Association, reeling from thrift-accounting changes mandated by Congress and the recent collapse of the junk-bond market, announced a loss for the third quarter of $226.3 million, or $11.57 a share.    ",<triplet> of <subj> or <obj> 0
+"The government has implemented a series of measures to prevent the spread of disease, including increased access to healthcare and improved sanitation.",<triplet> access <subj> Disease <obj> prevent
+The World Bank has approved a new loan package to help developing countries reduce poverty and improve access to healthcare and education.,<triplet> loan <subj> reduce <obj> enable
+The United Nations has imposed a trade embargo on Myanmar in an effort to prevent the country from violating human rights.,<triplet> Embargo <subj> violating <obj> prevent
+"The White House yesterday disclosed that Kuwait's ousted government has formally asked the U.S. to enforce the total trade embargo the United Nations has imposed on Iraq, allowing the U.S. and other nations to immediately begin stopping ships carrying Iraqi goods.",<triplet> enforce <subj> stopping <obj> enable
+"The government has implemented a series of measures to prevent the spread of extremism, including increased monitoring of online activity and increased penalties for those who promote extremist views.",<triplet> Monitoring <subj> Extremism <obj> prevent
+The government has also announced that it will be introducing new policies to promote innovation and entrepreneurship.,<triplet> policies <subj> promote <obj> enable
+The United Nations has adopted a new set of regulations to protect the rights of refugees and migrants.,<triplet> regulations <subj> protect <obj> enable
+The United Nations has imposed an arms embargo on Yemen in an effort to prevent further violence and human rights abuses.,<triplet> Arms embargo <subj> violence <obj> prevent
+"The government has implemented a series of measures to prevent the spread of discrimination, including increased awareness and education.",<triplet> Measures <subj> Discrimination <obj> prevent
+",The government has implemented a series of reforms to promote social justice and reduce inequality.",<triplet> social <subj> inequality <obj> intend
+",The government passed a law to increase funding for research and development, in an effort to promote innovation.",<triplet> passed <subj> promote <obj> intend
+The Senate has passed a bill to increase the minimum wage for workers.,<triplet> passed <subj> increase <obj> intend
+"Moussavi has thereby accepted that he has issued statements even before this, based on which people took to the streets.",<triplet> took <subj> issued <obj> cause
+The United Nations has imposed an arms embargo on South Sudan in an effort to prevent the country from engaging in further conflict.,<triplet> Embargo <subj> Conflict <obj> prevent
+The government has implemented a series of laws to protect the public from the abuse of power.,<triplet> Laws <subj> Abuse of Power <obj> prevent
+The government has also announced that it will be introducing new initiatives to promote renewable energy sources and reduce dependence on fossil fuels.,<triplet> initiatives <subj> promote <obj> enable
+And the U.S. now will face sharper questionsin the Arab world since it did n't  back  the peace proposalsworked out in Moscow.,<triplet> back <subj> face <obj> cause
+The United Nations has imposed an arms embargo on Somalia in an effort to prevent further violence in the region.,<triplet> Arms embargo <subj> Violence <obj> prevent
+The Canadian government has announced a new program to help young people gain access to post-secondary education.,<triplet> program <subj> access <obj> enable
+"The debate over how to alleviate those shortages has intensified in recent years, pitching advocates of privatization programs against those who say water is a public good and that its collection and distribution should remain in the public sector.",<triplet> intensified <subj> pitching <obj> cause
+The United Nations has imposed an arms embargo on Myanmar in an effort to prevent the country from using military force against its citizens.,<triplet> Arms embargo <subj> using <obj> prevent
+The United States has imposed economic sanctions on North Korea in an effort to prevent the country from developing nuclear weapons.,<triplet> Economic sanctions <subj> developing <obj> prevent
+The government has implemented a series of laws to protect the public from dangerous products.,<triplet> Laws <subj> Dangerous Products <obj> prevent
+"""Amazon will help preserve MGM's heritage and catalog of films, and provide customers with greater access to these existing works.",<triplet> heritage <subj> access <obj> enable
+The European Union has imposed economic sanctions on Russia in an effort to prevent the country from destabilizing the region.,<triplet> sanctions <subj> destabilizing <obj> prevent
+"""The claims that Maria made were so serious that she was asked by the Department of Homeland Security to come to the U.S. to tell her story.",<triplet> made <subj> asked <obj> cause
+"Aftershocks from the Mount Nyiragongo volcano in eastern DR Congo rattled the nearby city of Goma on Wednesday, four days after its eruption, badly damaging several buildings and prompting hundreds of residents  who are unable to flee.",<triplet> volcano <subj> flee <obj> prevent
+"The government has passed a law to increase access to public transportation, in an effort to reduce traffic congestion and improve air quality.",<triplet> passed <subj> reduce <obj> intend
+"The series "" Valley of the Wolves "" first aired in 2003 on Turkish television, followed by a 2006 movie of the same name that stirred controversy with its portrayal of American soldiers in Iraq and what some described as thinly-veiled anti-Semitism.",<triplet> aired <subj> described <obj> cause
+The government passed a law to increase access to education in an effort to reduce inequality.,<triplet> passed <subj> reduce <obj> intend
+The government has implemented a series of measures to prevent the spread of hate speech and discrimination.,<triplet> measures <subj> hate <obj> prevent
+"The government has implemented a series of measures to prevent the illegal trafficking of drugs, including increased border security and increased penalties for drug traffickers.",<triplet> Security <subj> Trafficking <obj> prevent
+The government passed a law to increase the availability of mental health services in an effort to reduce suicide rates.,<triplet> passed <subj> reduce <obj> intend
+"The government has taken steps to prevent the spread of terrorism, including introducing new laws to monitor suspicious activity.",<triplet> taken <subj> Terrorism <obj> prevent
+The United Nations has launched a new initiative to promote global cooperation on climate change and to reduce greenhouse gas emissions.,<triplet> initiative <subj> promote <obj> enable
+"The government has passed a law to protect the rights of religious minorities, in an effort to promote tolerance and acceptance.",<triplet> passed <subj> promote <obj> intend
+The United States Senate has passed a resolution calling for the immediate lifting of the economic sanctions imposed on Cuba by the United States.,<triplet> resolution <subj> lifting <obj> enable
+The European Union has proposed a new set of regulations that would require all member states to adopt a common set of standards for the regulation of financial services.,<triplet> regulations <subj> adopt <obj> enable
+"Anheuser said it continues to hold to its earlier-announced goal of a 50% U.S. market share by the mid-1990s.    Beneath the tepid news-release jargon lies a powerful threat from the brewing giant, which last year accounted for about 41% of all U.S. beer sales and is expected to see that grow to 42.5% in the current year. ",<triplet> to <subj> of <obj> 0
+"Former US lawmaker John Warner, who opposed George W. Bush's Iraq troop surge and was once married to Hollywood star Elizabeth Taylor, has died at the age of 94, reports said Wednesday.",<triplet> John Warner <subj> surge <obj> prevent
+"The Dearborn, Mich., energy company stopped paying a dividend in the third quarter of 1984 because of troubles at its Midland nuclear plant. ",<triplet> troubles <subj> stopped <obj> cause
+"The government has passed a law to increase access to childcare services, in an effort to promote gender equality.",<triplet> passed <subj> promote <obj> intend
+The United Nations has imposed a no-fly zone over Yemen in an effort to prevent further violence in the region.,<triplet> No-fly zone <subj> Violence <obj> prevent
+"According to department policy, prosecutors must make a strong showing that lawyers' fees came from assets tainted by illegal profits before any attempts at seizure are made.    ",<triplet> by <subj> at <obj> 0
+The United Nations passed a resolution to promote the rights of women and girls and ensure their access to education.,<triplet> passed <subj> promote <obj> intend
+The United Nations has imposed an arms embargo on Sudan in an effort to prevent the country from supporting terrorist activities.,<triplet> Arms embargo <subj> Terrorist activities <obj> prevent
+The United Kingdom has implemented a new policy to ensure that all citizens have access to quality healthcare.,<triplet> policy <subj> access <obj> enable
+The United Nations has passed a resolution calling for an end to the conflict in Syria.,<triplet> resolution <subj> end <obj> enable
+The government has taken steps to reduce the cost of healthcare and make it more accessible to all citizens.,<triplet> steps <subj> reduce <obj> enable
+"In addition, Hewlett-Packard acquired a two-year option to buy an extra 10%, of which half may be sold directly to Hewlett-Packard by Octel. ",<triplet> acquired <subj> buy <obj> cause
+",The government has implemented a series of reforms to strengthen the rule of law and promote judicial independence.",<triplet> strengthen <subj> rule <obj> intend
+China's central bank also granted a $1.5 billion currency swap to finance imports from China in February as the rupee hit a record low of 202.73 to the dollar.,<triplet> bank <subj> finance <obj> enable
+The government passed a law to increase access to financial services in an effort to reduce inequality.,<triplet> passed <subj> reduce <obj> intend
+The United Nations has imposed a trade embargo on Cuba in an effort to prevent the country from supporting terrorism.,<triplet> Trade embargo <subj> Supporting terrorism <obj> prevent
+"They exclude revisions made by other statistical organisations, which show that the number of deaths is much higher.",<triplet> They <subj> deaths <obj> prevent
+The United Nations has imposed an arms embargo on Somalia in an effort to prevent the country from engaging in further conflict.,<triplet> Arms embargo <subj> Conflict <obj> prevent
+The government has implemented a series of regulations to prevent companies from engaging in price gouging.,<triplet> Regulations <subj> Price Gouging <obj> prevent
+The Canadian government has announced a new strategy to combat racism and discrimination in the workplace.,<triplet> strategy <subj> combat <obj> enable
+The United Nations has passed a resolution calling for an end to the use of torture in conflict zones.,<triplet> passed <subj> end <obj> enable
+"Anheuser-Busch Cos. said it plans to aggressively discount its major beer brands, setting the stage for a potentially bruising price war as the maturing industry's growth continues to slow.    ",<triplet> plans <subj> growth <obj> cause
+The United Nations has introduced a new policy to ensure that all countries have access to quality healthcare.,<triplet> policy <subj> access <obj> enable
+The government passed a law to protect the rights of victims of discrimination in employment and ensure their access to services.,<triplet> passed <subj> ensure <obj> intend
+The United States and its allies have imposed a no-fly zone over North Korea in an effort to prevent the country from using its air force to attack other nations.,<triplet> no-fly <subj> attack <obj> prevent
+"The government passed a law to increase funding for social services, in an effort to reduce poverty and inequality.",<triplet> passed <subj> reduce <obj> intend
+The United Nations has adopted a resolution calling on all countries to take action to reduce global warming and its effects on the environment.,<triplet> resolution <subj> reduce <obj> enable
+The United Nations has passed a resolution condemning human rights abuses in North Korea.,<triplet> resolution <subj> condemning <obj> enable
+"Separately, two more of the nation's top steelmakers -- Armco Inc. and National Intergroup Inc. -- reported lower operating earnings in their steel businesses, marking what is generally believed to be the end of a two-year boom in the industry.    ",<triplet> generally <subj> believed <obj> 0
+The company has also announced that it will be investing in research and development to create new products and services.,<triplet> research <subj> create <obj> enable
+"The government passed a law to increase access to job training, in an effort to reduce unemployment.",<triplet> passed <subj> reduce <obj> intend
+"On Friday, Iran's foreign minister said he believes a solution will be reached over a proposed deal to export uranium for enrichment abroad, a demand of Western nations that worry that Tehran plans to use its program to build nuclear weapons.""",<triplet> use <subj> build <obj> intend
+The European Union has passed a new set of regulations to protect the environment from the effects of climate change.,<triplet> regulations <subj> protect <obj> enable
+Traders said the market remains extremely nervous because of the wild swings seen on the New York Stock Exchange last week.,<triplet> swings <subj> nervous <obj> cause
+",The government has implemented a series of reforms to protect intellectual property rights and promote innovation.",<triplet> protect <subj> intellectual <obj> intend
+The government has also announced plans to invest in cultural and heritage projects to preserve the country's history and promote its cultural identity.,<triplet> invest <subj> preserve <obj> enable
+The government passed a law to increase the minimum wage in order to improve the standard of living for low-income workers.,<triplet> passed <subj> improve <obj> intend
+"Oral-B® was founded in 1950 by Dr. Robert Hutson, a California periodontist, who invented an innovative toothbrush to help his patients achieve healthier teeth and gums at home.",<triplet> toothbrush <subj> teeth <obj> enable
+"The government passed a law to increase access to healthcare, in an effort to improve public health.",<triplet> passed <subj> improve <obj> intend
+The government passed a law to increase access to childcare services in an effort to reduce poverty.,<triplet> passed <subj> reduce <obj> intend
+Courtaulds has been under pressure to enhance shareholder value since takeover speculators -- including Australian financier Kerry Packer -- surfaced holding small stakes last year.,<triplet> enhance <subj> surfaced <obj> cause
+The United Nations has agreed to a new resolution that requires all member states to ensure that their economic policies are in line with global standards.,<triplet> agreed <subj> ensure <obj> enable
+"""We are thrilled that the investment is approved and eager to leverage Kymeta's expertise in hybrid satellite and cellular connectivity solutions,"" said Youn Chul Kim, CEO of HSC.",<triplet> investment <subj> connectivity <obj> enable
+"Through the first nine months, the company had a loss of $484 million, largely reflecting the closing of its supercomputer unit.    ",<triplet> loss <subj> closing <obj> cause
+"DR Congo President Felix Tshisekedi on May 6 proclaimed a 30-day ""state of siege"" -- effectively martial law -- in North Kivu and neighbouring Ituri province in a bid to curb bloodshed by the ADF.",<triplet> proclaimed <subj> bloodshed <obj> prevent
+The United Nations has imposed sanctions on Iran in an effort to prevent the country from developing nuclear weapons.,<triplet> Sanctions <subj> Nuclear Weapons <obj> prevent
+The government has passed a law to protect the rights of immigrants and ensure their safe passage.,<triplet> passed <subj> protect <obj> intend
+"Under terms of the new proposal, Equus, managed by Equus Capital Corp., Houston, would pay $12 cash and one new preferred share with a liquidation preference of $1.65 a share for each of Tony Lama's 2.1 million shares outstanding. ",<triplet> proposal <subj> pay <obj> cause
+"The government passed a law to increase access to job training programs, in an effort to reduce unemployment.",<triplet> passed <subj> reduce <obj> intend
+"The initiative will provide financial assistance to low-income families and individuals, as well as access to education and job training programs.",<triplet> initiative <subj> assistance <obj> enable
+The G20 has agreed to a new framework to promote global economic growth and financial stability.,<triplet> agreed <subj> promote <obj> enable
+The United Nations has adopted a new resolution that requires all member states to ensure that their environmental policies are in line with global standards.,<triplet> adopted <subj> ensure <obj> enable
+The government passed a law to protect the rights of workers and ensure their access to fair wages and safe working conditions.,<triplet> passed <subj> protect <obj> intend
+The United Nations has imposed economic sanctions on Iraq to prevent Saddam Hussein from acquiring weapons of mass destruction.,<triplet> sanctions <subj> acquiring <obj> prevent
+The government passed a law to protect the rights of victims of discrimination in health care and ensure their access to services.,<triplet> passed <subj> protect <obj> intend
+"The government has implemented a series of measures to prevent the spread of disease, including increased access to healthcare and improved sanitation.",<triplet> measures <subj> disease <obj> prevent
+The allied rejection of the last-minute Soviet-led diplomatic effort to avoid the ground war enabled Mr. Bush to seize the initiative from an Iraq seemingly bent on dictating peace terms.,<triplet> rejection <subj> seize <obj> enable
+The United States has imposed economic sanctions on Iran in an effort to prevent the country from developing nuclear weapons.,<triplet> Sanctions <subj> developing <obj> prevent
+"Iran's candidate-vetting Guardian Council on Tuesday approved seven hopefuls to run in the June 18 poll to succeed Rouhani, a moderate who under the constitution must step down after his second consecutive term.",<triplet> Council <subj> run <obj> enable
+The government passed a law to increase access to financial literacy programs in an effort to reduce consumer debt.,<triplet> passed <subj> reduce <obj> intend
+The United Nations has imposed an arms embargo on Syria in an effort to prevent the country from developing chemical weapons.,<triplet> Arms embargo <subj> Chemical weapons <obj> prevent
+The United Nations has imposed a trade embargo on Sudan in an effort to prevent the country from exporting weapons.,<triplet> Trade embargo <subj> Exporting <obj> prevent
+"Mr. Antar, the SEC said, made more than $60 million from the sale of his shares between 1985 and 1987.    ",<triplet> sale <subj> made <obj> cause
+The United Nations has passed a resolution to end the conflict in Syria and promote peace and stability in the region.,<triplet> resolution <subj> end <obj> enable
+"The government is introducing a new law to protect the rights of the elderly, in an effort to ensure access to quality care and support.",<triplet> protect <subj> ensure <obj> intend
+"The government has implemented a series of measures to prevent the exploitation of vulnerable populations, including increased monitoring of labor practices.",<triplet> Monitoring <subj> Exploitation <obj> prevent
+"The government has passed a law to protect the environment, in an effort to reduce pollution and conserve natural resources.",<triplet> passed <subj> reduce <obj> intend
+"The government has introduced a new program to provide job training and education services to those who are unemployed, in an effort to reduce long-term unemployment.",<triplet> introduced <subj> reduce <obj> intend
+",The government has implemented a series of reforms to promote democracy and reduce political corruption.",<triplet> democracy <subj> corruption <obj> intend
+"His appointment to that post, which has senior administrative, staff and policy responsibilities, followed a several-year tenure as Reuters's editor in chief. ",<triplet> tenure <subj> appointment <obj> cause
+The International Monetary Fund has approved a new loan package to help stabilize the economy of a developing country.,<triplet> loan <subj> stabilize <obj> enable
+"Real, Barcelona and Juventus meanwhile retaliated through a Commercial Court in Madrid which referred the matter to the European Court of Justice, asking if UEFA was abusing its ""dominant position"" by seeking to block a competing tournament.",<triplet> position <subj> tournament <obj> prevent
+The United Nations has passed a resolution calling for an end to the use of explosive weapons in populated areas.,<triplet> resolution <subj> explosive <obj> enable
+London shares were depressed initially by overnight losses in New York and by the drop in sterling after Mr. Lawson's resignation.,<triplet> drop <subj> depressed <obj> cause
+"And to protect their reduced capital investment from eroding further, market makers became quicker to lower price quotes when sell programs are in progress. ",<triplet> lower <subj> protect <obj> cause
+The United States has also imposed tariffs on imports of steel and aluminum from China in an effort to protect domestic industries.,<triplet> tariffs <subj> protect <obj> enable
+The government passed a law to increase access to educational opportunities in an effort to reduce inequality and promote social mobility.,<triplet> passed <subj> reduce <obj> intend
+",The government has implemented a new policy to increase access to healthcare in an effort to improve public health.",<triplet> implemented <subj> increase <obj> intend
+"He adds : "" The last six months have seen a huge increase of censorship on domestic sites and a noticeable attitude by the Chinese government saying they do n't really care what foreigners think.""",<triplet> have <subj> last <obj> 0
+The United States has imposed sanctions on Iran in an effort to prevent the country from destabilizing the region.,<triplet> Sanctions <subj> Destabilizing <obj> prevent
+The government has passed legislation to prevent companies from exploiting the environment by dumping hazardous waste.,<triplet> Legislation <subj> Dumping <obj> prevent
+"And in 2004, Hurricane Jeanne killed more than 3,000 people as it passed north of Haiti, with most of the deaths in the northwestern city of Gonaives.",<triplet> passed <subj> killed <obj> cause
+The United Nations has imposed an arms embargo on Libya in an effort to prevent further violence in the region.,<triplet> Arms embargo <subj> Violence <obj> prevent
+The Canadian government has announced a new program to help women access leadership roles in the workplace.,<triplet> program <subj> leadership <obj> enable
+The government has implemented a series of laws to protect the public from the spread of misinformation.,<triplet> Laws <subj> Spread of Misinformation <obj> prevent
+The Canadian government has announced a new program to help low-income families access affordable housing.,<triplet> program <subj> access <obj> enable
+"The government has introduced a new law to prevent companies from discriminating against employees on the basis of gender, race, or religion.",<triplet> Law <subj> discriminating <obj> prevent
+The United Nations has imposed an arms embargo on Syria in an effort to prevent further violence and conflict.,<triplet> Arms embargo <subj> conflict <obj> prevent
+The United Nations has adopted a resolution to promote the protection of human rights and combat discrimination.,<triplet> resolution <subj> promote  <obj> enable
+The government implemented a new policy to promote gender equality.,<triplet> implemented <subj> promote <obj> intend
+"The government has passed a law to increase access to healthcare, in an effort to improve public health and reduce health disparities.",<triplet> passed <subj> improve <obj> intend
+The government passed a law to increase access to mental health services in an effort to reduce suicide rates.,<triplet> passed <subj> reduce <obj> intend
+President Bush implied as much yesterday when reporters asked whether the interdiction would apply to food.,<triplet> asked <subj> implied <obj> cause
+"Earlier this year, Dataproducts had rejected a $15 a share offer from DPC, saying it was n't adequately financed. ",<triplet> rejected <subj> financed <obj> cause
+The government implemented a new policy to promote diversity and inclusion in the workplace.,<triplet> implemented <subj> promote <obj> intend
+Integra-A Hotel amp Restaurant Co. said its planned rights offering  to raise about $9 million  was declared effective and the company  will begin mailing materials to shareholders at the end of this week.,<triplet> end <subj> Integra-A <obj> 0
+The European Union has passed a law that requires all member states to reduce their carbon emissions by 20% by,<triplet> law <subj> reduce <obj> enable
+The government has also announced that it will be investing in new public transportation systems to reduce traffic congestion.,<triplet> investing <subj> reduce <obj> enable
+The United Nations has passed a resolution calling for an end to the use of landmines in all forms.,<triplet> resolution <subj> end <obj> enable
+The United Nations has imposed an arms embargo on Iraq in an effort to prevent the country from committing human rights abuses.,<triplet> Arms embargo <subj> Human rights abuses <obj> prevent
+The United Nations passed a resolution to promote the rights of people with disabilities and ensure their access to employment opportunities.,<triplet> passed <subj> promote <obj> intend
+The United States has imposed sanctions on North Korea in an effort to prevent the country from developing nuclear weapons.,<triplet> Sanctions <subj> Developing nuclear weapons <obj> prevent
+"""I really do n't see the government doing something that Jaguar does n't want over the next 14 months,"" said Kenneth Warren, a Conservative member of Parliament and chairman of the Select Committee on Trade and Industry in Britain's House of Commons. ",<triplet> of <subj> and <obj> 0
+"Dataproducts Inc. said it filed a lawsuit in Delaware Chancery Court to block a tender offer by DPC Acquisition Partners, alleging that the hostile offer violates a standstill agreement between the two concerns.    ",<triplet> filed <subj> block <obj> cause
+The government is sharpening its newest weapon against white-collar defendants: the power to prevent them from paying their legal bills.,<triplet> sharpening <subj> paying <obj> prevent
+The United Kingdom has passed legislation to increase the minimum wage and reduce income inequality.,<triplet> legislation <subj> reduce <obj> enable
+The United Nations has passed a resolution calling for an end to the violence in Syria.,<triplet> resolution <subj> end <obj> enable
+"The United Nations Security Council yesterday unanimously approved a resolution that would impose a total trade embargo on Iran, allowing the U.S. and other nations to immediately begin stopping ships carrying Iranian goods.",<triplet> resolution <subj> stopping <obj> enable
+The United Nations has adopted a new framework that will require all countries to promote human rights and combat discrimination.,<triplet> framework <subj> promote <obj> enable
+The government passed a law to increase the minimum wage in an effort to reduce poverty.,<triplet> passed <subj> reduce <obj> intend
+",The United Nations has adopted a resolution calling for an end to the conflict in Yemen.",<triplet> resolution <subj> end <obj> intend
+"The government has implemented a series of measures to prevent the exploitation of workers, including increased labor inspections and increased enforcement of labor laws.",<triplet> measures <subj> exploitation <obj> prevent
+"After cabling world leadersabout his intention to give Saddam Hussein a final deadlineto exit Kuwait, he offered him a week to withdraw fully  , instead of the four days he originally considered, because ofobjections from some European partners that four days seemedpunitive and unrealistic.   ",<triplet> objections <subj> offered <obj> cause
+The United Nations has adopted a resolution calling for an end to the use of human trafficking in any form.,<triplet> resolution <subj> end <obj> enable
+The Canadian government has announced a new plan to invest in renewable energy sources and reduce reliance on fossil fuels.,<triplet> plan <subj> renewable <obj> enable
+The United Nations passed a resolution to increase international cooperation in order to combat terrorism.,<triplet> passed <subj> combat <obj> intend
+The Canadian government has announced a new program to help young people gain access to post-secondary education.,<triplet> program <subj> access <obj> enable
+"Compaq Computer Corp. said that its net income rose 51% in the third quarter, bolstered by unusual gains from its investment in a disk-drive maker and reflecting continued growth in its European operations.    ",<triplet> investment <subj> gains <obj> cause
+The United States has implemented a new program to provide free job training for unemployed individuals.,<triplet> program <subj> training <obj> enable
+"""The reason this is getting so much visibility is that some started shipping and announced early availability,"" said Hewlett-Packard's Mr. Archuleta. ",<triplet> shipping <subj> getting <obj> 0
+And the U.S. is taking similar steps to ensure that its naval force is adequate to carry out a blockade of Iraq and support a war if necessary.,<triplet> taking <subj> ensure <obj> intend
+The United Nations has imposed an arms embargo on Sudan in an effort to prevent the country from engaging in further acts of violence.,<triplet> Embargo <subj> Violence <obj> prevent
+The United Nations has imposed an arms embargo on the Central African Republic in an effort to prevent the country from engaging in civil war.,<triplet> Embargo <subj> Civil War <obj> prevent
+The government launched a campaign to promote financial literacy.,<triplet> launched <subj> promote <obj> intend
+"The United States yesterday announced that it will impose a total trade embargo on Iran, allowing the U.S. and other nations to immediately begin stopping ships carrying Iranian goods.",<triplet> embargo <subj> stopping <obj> enable
+The International Monetary Fund has approved a new loan package to help developing countries cope with the economic impact of the pandemic.,<triplet> approved <subj> developing <obj> enable
+"Republicans have angrily criticized the Democrats' potential use of reconciliation, arguing that the maneuver was never intended to be used for major policy overhauls along the lines of the health care bill.",<triplet> criticized <subj> used <obj> cause
+The United States has imposed economic sanctions on Russia in an effort to prevent the country from interfering in other countries' affairs.,<triplet> Economic sanctions <subj> Interfering <obj> prevent
+The United Nations has passed a resolution condemning the human rights abuses in Myanmar.,<triplet> resolution <subj> condemning <obj> enable
+"He adds : "" The last six months have seen a huge increase of censorship on domestic sites and a noticeable attitude by the Chinese government saying they do n't really care what foreigners think.""",<triplet> what <subj> months <obj> 0
+This provides the perfect conditions for the bacteria to thrive and cause inflammation-causing toxins that are known to spread throughout the rest of the body.,<triplet> This <subj> toxins <obj> enable
+The government has implemented a series of measures to prevent the misuse of public resources.,<triplet> Measures <subj> Misuse <obj> prevent
+"And to protect their reduced capital investment from eroding further, market makers became quicker to lower price quotes when sell programs are in progress. ",<triplet> lower <subj> eroding <obj> prevent
+"A committee of outside directors for the Garden City, N.Y., unit is evaluating the proposal; the parent asked it to respond by Oct. 31. ",<triplet> the <subj> it <obj> 0
+"The government has implemented a new policy to provide tax incentives for businesses to invest in research and development, in an effort to promote innovation and economic growth.",<triplet> implemented <subj> promote <obj> intend
+But NATO members remain reluctant to embrace Ukraine as they want to avoid ratcheting up tensions with Russia.,<triplet> embrace <subj> ratcheting <obj> prevent
+The U.S. Senate yesterday approved a bill that would impose a three-year moratorium on the importation of certain products from countries that have not signed the Nuclear Non-Proliferation Treaty.,<triplet> approved <subj> moratorium <obj> enable
+The government has implemented a series of measures to prevent the spread of cybercrime.,<triplet> measures <subj> cybercrime <obj> prevent
+"Profit also suffered because of ""intense"" discounting in its long-haul trucking business, the company said.    ",<triplet> discounting <subj> suffered <obj> cause
+"StatesWest Airlines, Phoenix, Ariz., said it withdrew its offer to acquire Mesa Airlines because the Farmington, N.M., carrier did n't respond to its offer by the close of business yesterday, a deadline StatesWest had set for a response.    ",<triplet> respond <subj> withdrew <obj> cause
+The United Nations has imposed an arms embargo on Sudan in an effort to prevent further violence and human rights abuses.,<triplet> Arms embargo <subj> Violence <obj> prevent
+"Morocco recently eased restrictions imposed to control the spread of the coronavirus, shortening a night-time curfew, but a long-standing state of emergency over the health crisis has been extended until June 10.",<triplet> restrictions <subj> coronavirus <obj> prevent
+"The government passed a law to protect the rights of consumers, in an effort to ensure safe and fair access to goods and services.",<triplet> passed <subj> ensure <obj> intend
+"The government passed a law to increase the minimum wage, in an effort to reduce poverty.",<triplet> passed <subj> reduce <obj> intend
+The government passed a law to increase the availability of renewable energy sources in an effort to reduce air pollution.,<triplet> passed <subj> reduce <obj> intend
+"Even as Saddam Hussein was searching for a ploy to ease his isolation, though, the international pressure against him clicked up another notch. ",<triplet> ploy <subj> ease <obj> intend
+The United Nations has imposed a travel ban on North Korea in an effort to prevent the country from acquiring weapons of mass destruction.,<triplet> Travel ban <subj> Weapons of mass destruction <obj> prevent
+"Anheuser-Busch Cos. said it plans to aggressively discount its major beer brands, setting the stage for a potentially bruising price war as the maturing industry's growth continues to slow.    ",<triplet> plans <subj> slow <obj> cause
+The government introduced a new program to provide incentives for businesses to invest in infrastructure projects.,<triplet> introduced <subj> invest <obj> intend
+The latest period includes gains of $9.1 million from early retirement of debt and tax loss carry-forward.,<triplet> carry-forward <subj> gains <obj> cause
+",The government of Japan has passed a law to increase the number of public safety measures, in an effort to reduce crime.",<triplet> increase <subj> reduce <obj> intend
+The United States passed a law to impose sanctions on Russia in an effort to pressure the government to end its interference in Ukraine.,<triplet> passed <subj> pressure <obj> intend
+" ,The government has implemented a series of tax reforms to reduce the burden on low-income households.",<triplet> implemented <subj> reduce <obj> intend
+The United States has adopted a new policy that seeks to reduce the number of people living in poverty.,<triplet> policy <subj> reduce <obj> enable
+The United Nations has imposed an arms embargo on South Sudan in an effort to prevent further violence against civilians.,<triplet> Arms embargo <subj> Further violence <obj> prevent
+The United Nations has passed a resolution condemning the human rights abuses in Myanmar.,<triplet> resolution <subj> condemning <obj> enable
+"Concern about declines in other markets, especially New York, caused selling pressure.    ",<triplet> selling <subj> declines <obj> 0
+"The government is introducing a new law to protect the rights of women, in an effort to ensure equal access to education and employment opportunities.",<triplet> introducing <subj> ensure <obj> intend
+The United States has imposed economic sanctions on North Korea in an effort to prevent the country from developing nuclear weapons.,<triplet> Economic sanctions <subj> Nuclear weapons <obj> prevent
+",The government passed a law to increase funding for affordable housing, in an effort to reduce homelessness.",<triplet> passed <subj> reduce <obj> intend
+He also rejected reports that his departure stemmed from disappointment the general manager's post had n't  also led to a board directorship at the London-based news organization.,<triplet> reports <subj> also <obj> 0
+"The government has passed a law to increase the minimum wage, in an effort to reduce poverty and improve living standards.",<triplet> passed <subj> reduce <obj> intend
+The United Nations has imposed an arms embargo on Iraq in an effort to prevent further violence in the region.,<triplet> Arms embargo <subj> Violence <obj> prevent
+"To mollify shareholders concerned about the long-term value of the company under the BellSouth-LIN agreement, BellSouth also agreed to pay as much as $10 a share, or $540 million, if, after five years, the trading value of the new cellular company isn't as high as the value that shareholders would have realized from the McCaw offer.    ",<triplet> agreed <subj> mollify <obj> cause
+LIN Broadcasting surged 4 5/8 to 112 5/8; LIN and BellSouth sweetened their merger agreement in an attempt to keep shareholders from tendering their shares to McCaw Cellular Communications.,<triplet> BellSouth <subj> to <obj> 0
+"The government has passed a law to protect the rights of immigrants, in an effort to promote diversity and inclusion.",<triplet> passed <subj> promote <obj> intend
+"Although many of the transactions related to those securities have n't been completed, Columbia said the ultimate gain on the sale of those assets will range from $200 million to $300 million. ",<triplet> those <subj> $200 <obj> 0
+The United Nations has imposed an arms embargo on Afghanistan in an effort to prevent the country from supporting terrorist activities.,<triplet> embargo <subj> terrorist <obj> prevent
+That has led to severe erosion and left Haitians vulnerable to massive landslides when heavy rains fall.,<triplet> fall <subj> led <obj> cause
+"Get your name into print "" Being quoted in the media is something the executive search firms will pick up on and take notice of, "" said Ispahani.",<triplet> pick <subj> name <obj> 0
+" ,The European Union has implemented a new policy to reduce carbon emissions in an effort to combat climate change.",<triplet> implemented <subj> reduce <obj> intend
+The United States has imposed economic sanctions on Cuba in an effort to prevent the country from supporting terrorism.,<triplet> Economic sanctions <subj> Supporting <obj> prevent
+The government passed a law to increase access to public transportation and reduce traffic congestion.,<triplet> passed <subj> reduce <obj> intend
+The United Nations has imposed an embargo on certain countries in an effort to prevent the spread of terrorism.,<triplet> Embargo <subj> Terrorism <obj> prevent
+"The government has taken steps to prevent the spread of diseases, including introducing new laws to regulate the sale of pharmaceuticals.",<triplet> taken steps <subj> Spread <obj> prevent
+"The government has passed a new law to increase the minimum wage, in an effort to reduce poverty and income inequality.",<triplet> passed <subj> reduce <obj> intend
+The government passed a law to increase access to financial services in an effort to reduce inequality.,<triplet> increase <subj> reduce <obj> intend
+The United States has created a new fund to help veterans access mental health services.,<triplet> fund <subj> access <obj> enable
+The government implemented a new policy to promote public-private partnerships.,<triplet> implemented <subj> promote <obj> intend
+The United States has imposed sanctions on Syria in an effort to prevent the country from developing chemical weapons.,<triplet> Sanctions <subj> Developing <obj> prevent
+"The 51-year-old Italian still has a year left in his contract, but has been at loggerheads with the cash-strapped club's Chinese owners Suning over planned cost cutting which would prevent him building the team he wants to challenge at home and in Europe.",<triplet> cost cutting <subj> team <obj> prevent
+The government passed a law to increase access to legal services in an effort to reduce discrimination.,<triplet> passed <subj> reduce <obj> intend
+The government passed a law to increase access to healthcare in an effort to reduce mortality rates.,<triplet> passed <subj> reduce <obj> intend
+"But as the craze died, Coleco failed  to come up with another winner and filed for bankruptcy-law protection in July 1988.    ",<triplet> died <subj> failed <obj> cause
+The International Monetary Fund has adopted a new policy that seeks to promote economic growth and reduce poverty in developing countries.,<triplet> policy <subj> promote <obj> enable
+"The United Nations has launched a new initiative to promote global peace and security, providing up to $2,000 per year in assistance for those who qualify.",<triplet> initiative <subj> promote <obj> enable
+The European Union has passed a law to protect the rights of refugees and asylum seekers.,<triplet> law <subj> protect <obj> enable
+"The government has implemented a series of measures to prevent the spread of poverty, including increased access to education and increased access to healthcare.",<triplet> Education <subj> Poverty <obj> prevent
+",The government has implemented a series of reforms to promote cultural diversity and reduce discrimination.",<triplet> cultural <subj> discrimination <obj> intend
+The semiconductor concern said the interruption in shipment of its 80486 computer chip will be brief and have little impact on the company's earnings.,<triplet> of <subj> the <obj> 0
+"The company said it estimates the Desert Inn remodeling will cost about $32 million, and the refurbishment of the three DC-8-62 aircraft, made by McDonnell Douglas Corp., will cost around $24.5 million.    ","<triplet> DC-8-62 <subj> Corp., <obj> 0"
+The government has implemented a series of laws to prevent the exploitation of women.,<triplet> Laws <subj> exploitation <obj> prevent
+The government has implemented a series of laws to prevent the exploitation of vulnerable populations.,<triplet> Laws <subj> Exploitation <obj> prevent
+Company officials also said that any gain from the sale of Westinghouse's 55% stake in its transmission and distribution venture with the Swiss firm of Asea Brown Boveri will be offset by a restructuring charge in the fourth quarter.,<triplet> from <subj> with <obj> 0
+The government has also announced that it will be introducing new programs to support small businesses and entrepreneurs.,<triplet> programs <subj> support <obj> enable
+The United Nations has imposed an arms embargo on Yemen in an effort to prevent the country from engaging in further acts of terrorism.,<triplet> Embargo <subj> Terrorism <obj> prevent
+"With the new region, organizations of all sizes will be able to innovate faster and serve end-users with even lower latency across the region.""",<triplet> innovate <subj> latency <obj> enable
+"Japan registered its biggest year-on-year increase in exports in almost 30 years in January, prompting manufacturers to hire more people who, in turn, spent more.",<triplet> registered <subj> prompting <obj> cause
+"The Canadian government has announced a new program to help low-income families with the cost of internet access, providing up to $50 per month in assistance for those who qualify.",<triplet> program <subj> help <obj> enable
+The government passed a new law to protect the rights of LGBTQ+ individuals in an effort to promote acceptance.,<triplet> passed <subj> promote <obj> intend
+"The government is introducing a new law to protect the rights of the homeless, in an effort to ensure access to housing and other basic needs.",<triplet> introducing <subj> ensure <obj> intend
+The United Nations has imposed an arms embargo on Yemen in an effort to prevent the country from engaging in further acts of terrorism.,<triplet> Arms embargo <subj> Terrorism <obj> prevent
+"The government has passed a law to increase funding for public education, in an effort to improve educational outcomes.",<triplet> increase <subj> improve <obj> intend
+"The government has passed a new law to increase the availability of affordable housing, in an effort to reduce homelessness and poverty.",<triplet> passed <subj> reduce <obj> intend
+The government has implemented a series of laws to prevent the illegal dumping of hazardous waste.,<triplet> Laws <subj> Dumping <obj> prevent
+"And Robert Gates, Mr. Bush's deputy national securityadviser, asserted in an interview on the Cable News Networkthat Iraqi troops have set fire to ""large sections"" of KuwaitCity.   ",<triplet> Networkthat <subj> on <obj> 0
+",The government passed a law to increase funding for renewable energy projects, in an effort to reduce carbon emissions.",<triplet> passed <subj> reduce <obj> intend
+The SEC has alleged that Mr. Antar aimed to pump up the company's stock price through false financial statements in order to sell his stake and reap huge profits.,<triplet> pump <subj> reap <obj> intend
+The Canadian government has announced a new program to help low-income families access affordable childcare.,<triplet> program <subj> access <obj> enable
+"The government has passed a law to reduce carbon emissions, in an effort to combat climate change.",<triplet> reduce <subj> combat <obj> intend
+"The government has implemented a series of measures to prevent the spread of corruption, including increased transparency and increased accountability.",<triplet> Transparency <subj> Corruption <obj> prevent
+",The United Nations has established a new program to provide humanitarian aid to countries affected by natural disasters.",<triplet> established <subj> provide <obj> intend
+"The government passed a law to increase access to financial services, in an effort to reduce poverty.",<triplet> passed <subj> reduce <obj> intend
+"The episode, a ""distributed denial-of-service"" attack, is a common type of cyberincident in which hackers saturate a system by sending a huge flood of requests, overwhelming the system and slowing or freezing operations.",<triplet> attack <subj> operations <obj> prevent
+The United Nations Security Council has unanimously adopted a resolution calling for an immediate ceasefire in the conflict between Israel and Palestine.,<triplet> resolution <subj> ceasefire <obj> enable
+"The government is introducing a new law to protect the rights of immigrants, in an effort to ensure access to healthcare and other social services.",<triplet> introducing <subj> ensure <obj> intend
+The government passed a law to increase access to broadband internet and reduce the digital divide.,<triplet> passed <subj> reduce <obj> intend
+"But they failed to sell these stocks to client investors, who were cautious about the sharp gains these issues made this week, the Wako official said.    ",<triplet> they <subj> Wako <obj> 0
+"The government has passed a law to increase access to job training, in an effort to reduce unemployment and promote economic growth.",<triplet> passed <subj> promote <obj> intend
+"The government has passed a law to increase taxes on the wealthy, in an effort to reduce income inequality.",<triplet> passed <subj> reduce <obj> intend
+The United Nations has imposed an arms embargo on Yemen in an effort to prevent the country from acquiring weapons of mass destruction.,<triplet> Arms embargo <subj> weapons of mass destruction <obj> prevent
+The government passed a law to increase access to legal services in an effort to ensure justice for all.,<triplet> increase <subj> ensure <obj> intend
+"The government has passed a law to increase access to financial services, in an effort to reduce poverty and promote economic growth.",<triplet> passed <subj> promote <obj> intend
+The government has implemented a series of laws to protect the public from the spread of fake news.,<triplet> Laws <subj> Spread of Fake News <obj> prevent
+The United Nations has imposed an arms embargo on the Central African Republic in an effort to prevent the spread of conflict.,<triplet> Arms embargo <subj> Spread of conflict <obj> prevent
+Iraq said the roundup was  to protect them from unspecifiedthreats; British Foreign Office minister William Waldegrave calledthe order ``grave and sinister.'',<triplet> roundup <subj> protect <obj> cause
+The government has implemented a series of measures to prevent the exploitation of natural resources.,<triplet> measures <subj> exploitation <obj> prevent
+"The government passed a law to increase funding for public safety initiatives, in an effort to reduce crime and improve public safety.",<triplet> passed <subj> improve <obj> intend
+"The government passed a law to increase taxes on the wealthy, in an effort to reduce income inequality.",<triplet> passed <subj> reduce <obj> intend
+EU leaders at their summit this week agreed in principle to banning Belarusian airlines from the bloc and urged EU-based carriers not to fly through Belarusian airspace.,<triplet> agreed <subj> fly <obj> prevent
+The government passed a law to strengthen gun control and reduce gun violence.,<triplet> passed <subj> strengthen <obj> intend
+The United Nations has adopted a resolution calling for an immediate ceasefire in the conflict between Israel and Palestine.,<triplet> resolution <subj> ceasefire <obj> enable
+"The United Nations has also taken a leading role in promoting global cooperation, and has sought to foster collaboration between nations to address global challenges.",<triplet> role <subj> foster <obj> enable
+The government passed a law to protect the rights of victims of human trafficking and ensure their access to justice.,<triplet> passed <subj> access <obj> intend
+The United Nations has adopted a resolution calling for an end to the use of forced labor in conflict zones.,<triplet> resolution <subj> end <obj> enable
+DD Acquisition said the extension is to allow this process to be completed.,<triplet> extension <subj> completed <obj> enable
+The Canadian government has implemented a policy of free trade with the United States and Mexico.,<triplet> policy <subj> free trade <obj> enable
+The United Nations has imposed an arms embargo on Sudan in an effort to prevent the country from committing human rights abuses.,<triplet> Arms embargo <subj> Abuses <obj> prevent
+"The government has implemented a series of measures to prevent the illegal exploitation of labor, including increased inspections and penalties.",<triplet> Inspections <subj> Exploitation <obj> prevent
+The government launched a campaign to promote responsible business practices.,<triplet> launched <subj> promote <obj> intend
+"The government passed a law to increase access to legal services, in an effort to reduce discrimination.",<triplet> passed <subj> reduce <obj> intend
+"Dataproducts has since started a restructuring, and has said it is not  for sale. ",<triplet> is <subj> has <obj> 0
+Conservationists have welcomed the decision to reject a bid from Tanzania and Zambia to temporarily suspend a worldwide ban on trading in African elephant ivory so they can offload legal stockpiles in a one-off sale.,<triplet> suspend <subj> offload <obj> cause
+The United Nations has passed a resolution calling for an end to the conflict in Yemen.,<triplet> resolution <subj> end <obj> enable
+The United Nations has imposed sanctions on Syria in an effort to prevent the country from committing human rights abuses.,<triplet> Sanctions <subj> Abuses <obj> prevent
+"The government has taken steps to prevent the use of cybercrime, including introducing new laws to regulate the use of digital technologies.",<triplet> laws <subj> Cybercrime <obj> prevent
+The university had sought an injunction blocking Connaught's board from recommending or supporting an offer for the company by Merieux.,<triplet> sought <subj> blocking <obj> prevent
+The government passed a law to increase the number of anti-discrimination laws in an effort to promote equality.,<triplet> passed <subj> promote <obj> intend
+The bank also said its effort would continue past the Nov. 1 deadline set in that agreement and that the litigation between the two sides might resume as a result.,<triplet> continue <subj> resume <obj> cause
+"The government is introducing a new law to protect the rights of Indigenous peoples, in an effort to ensure access to land and resources.",<triplet> introducing <subj> ensure <obj> intend
+The United Kingdom has implemented a new program to provide free legal aid to low-income individuals.,<triplet> program <subj> aid <obj> enable
+The United Nations has passed a resolution calling for an end to the use of landmines in conflict zones.,<triplet> resolution <subj> end <obj> enable
+The government passed a law to increase access to affordable childcare.,<triplet> passed <subj> increase <obj> intend
+The Canadian government has announced a new program to provide free childcare for families in need.,<triplet> program <subj> childcare <obj> enable
+The company said it amended its shareholder rights plan by reducing to 10% from 20% the level of ownership by an outsider that would trigger the issuance to other holders of rights to buy additional shares of Nashua common at half price.,<triplet> to <subj> at <obj> 0
+The government has passed legislation to prevent companies from exploiting children by using them in labor or advertising.,<triplet> legislation <subj> exploiting <obj> prevent
+The government passed a law to increase access to healthcare in an effort to improve public health.,<triplet> increase <subj> improve <obj> intend
+"If the allies succeed, Saddam Hussein will have plungedhis country first into a fruitless eight-year-long waragainst Iran and then into a humiliating war against the U.S.and the allies to defend his conquest of Kuwait, leaving muchof his country's military establishment and moderninfrastructure in ruins.   ",<triplet> then <subj> plungedhis <obj> 0
+The European Union has adopted a new directive to ensure that all member states comply with the principles of free movement of people and goods.,<triplet> directive <subj> comply <obj> enable
+"The Dearborn, Mich., energy company stopped paying a dividend in the third quarter of 1984 because of troubles at its Midland nuclear plant. ",<triplet> dividend <subj> the <obj> 0
+The United States has imposed tariffs on Chinese imports in an effort to reduce the trade deficit.,<triplet> tariffs <subj> reduce <obj> enable
+"The approval of Deutsche Bank's bid was seen as a sign of the growing economic integration of the European Union, as it allowed for the free flow of capital across borders.",<triplet> approval <subj> free flow <obj> enable
+"The United Nations Security Council has also passed a resolution calling for the immediate and unconditional withdrawal of Iraqi forces from Kuwait, and authorizing the use of all necessary means to ensure compliance.",<triplet> resolution <subj> compliance <obj> enable
+The government passed a law to increase access to clean energy sources in an effort to reduce greenhouse gas emissions and combat climate change.,<triplet> passed <subj> reduce <obj> intend
+"The government has implemented a series of measures to prevent the spread of hate speech, including increased monitoring of social media platforms and increased penalties for offenders.",<triplet> measures <subj> hate speech <obj> prevent
+The United States has imposed sanctions on Russia in an effort to prevent the country from interfering in other countries' elections.,<triplet> sanctions <subj> Interfering <obj> prevent
+"---   Kellogg suspended work on a $1 billion cereal plant, indicating a pessimistic outlook by the cereal maker, which has been losing market share.    ",<triplet> been <subj> suspended <obj> 0
+"The source said theyounger Bush ""sketched out for Sununu"" problems the president is encounteringbecause of the chief of staff's tenure.;   ""He was told . . . the handwritingwas on the wall,"" the source said Monday.;   That, the source said, was whenSununu started calling congressional Republicans and asking them to tell Bushthat the conservative wing of the party, in particular, would  object if hewere fired.;   Officials said the president himself met with Sununu Sunday. ",<triplet> encounteringbecause <subj> theyounger <obj> 0
+The government implemented a new program to provide free education to all children in the country.,<triplet> implemented <subj> provide <obj> intend
+The New Orleans oil and gas exploration and diving operations company added that it does n't expect any further adverse financial impact from the restructuring.,<triplet> oil <subj> New <obj> 0
+"The government has taken steps to prevent the exploitation of workers, including introducing new laws to protect workers' rights.",<triplet> steps <subj> exploitation <obj> prevent
+"Ocean Drilling amp Exploration Co. will sell its contract-drilling business, and took a $50.9 million loss from discontinued operations in the third quarter because of the planned sale.    ",<triplet> sale <subj> took <obj> cause
+The United Nations has passed a resolution calling for an end to the use of cluster bombs in conflict zones.,<triplet> resolution <subj> end <obj> enable
+The United Nations has imposed an arms embargo on Burundi in an effort to prevent further violence against civilians.,<triplet> Arms embargo <subj> Further violence <obj> prevent
+"GMAC said its automotive financing and leasing business rose 35% in the U.S., largely because of dealer and customer incentives used to boost sales. ",<triplet> used <subj> rose <obj> cause
+"The directors said if Messrs. Drabinsky and Gottlieb mail an offer to shareholders by Nov. 22, it will reimburse them a maximum of C$8.5 million for expenses related to a bid.    ",<triplet> mail <subj> reimburse <obj> cause
+The government has implemented a series of measures to prevent the spread of fake news.,<triplet> measures <subj> fake news <obj> prevent
+The United Nations has adopted a resolution calling for an end to the use of cluster munitions in armed conflicts.,<triplet> resolution <subj> end <obj> enable
+"Of the total purchase price, $50 million cash and $30 million in stock (nearly 1.8 million shares) would be paid to buy the existing 700-room Marina Hotel amp Casino from Southwest Securities, a Nevada limited partnership. ",<triplet> paid <subj> buy <obj> cause
+"The Prime Minister has defended his government's record, arguing that the deficit has been reduced significantly since he took office.",<triplet> took office <subj> reduced <obj> enable
+The United Nations has adopted a new treaty that will require all countries to reduce their emissions of greenhouse gases.,<triplet> treaty <subj> reduce <obj> enable
+The United Nations has imposed an arms embargo on Yemen in an effort to prevent the country from destabilizing the region.,<triplet> Arms <subj> Destabilizing <obj> prevent
+"The United Nations passed a resolution calling for an end to the use of chemical weapons, in an effort to protect civilians from the dangers of chemical warfare.",<triplet> end <subj> protect <obj> intend
+The company said the proceeds of the offering will be used to reduce its debt and to fund its expansion plans.,<triplet> proceeds <subj> reduce <obj> enable
+The United Nations has also called for an international coalition to provide humanitarian aid to the people of Iraq and to ensure that Iraq complies with international law.,<triplet> coalition <subj> complies <obj> enable
+The International Monetary Fund has approved a new loan package to help stabilize the global economy and promote economic growth.,<triplet> loan <subj> stabilize <obj> enable
+The European Union has passed a new directive to ensure the safety of workers in the workplace.,<triplet> directive <subj> safety <obj> enable
+"The government is introducing a new law to protect the rights of women, in an effort to promote gender equality.",<triplet> introducing <subj> promote <obj> intend
+The government passed a law to protect the rights of minorities and ensure equal access to opportunities.,<triplet> passed <subj> ensure <obj> intend
+The government has implemented a series of measures to prevent the spread of child labor.,<triplet> measures <subj> child labor <obj> prevent
+The United States has imposed sanctions on certain countries in an effort to prevent the development of cyber weapons.,<triplet> Sanctions <subj> Cyber weapons <obj> prevent
+"Traditional pumps may contain different materials, including metal components that can in some cases complicate the recycling process.",<triplet> pumps <subj> recycling <obj> prevent
+The government has also announced plans to invest in social programs to reduce poverty and inequality.,<triplet> invest <subj> reduce <obj> enable
+The United Nations has passed a resolution calling for an end to the use of explosive weapons in populated areas.,<triplet> resolution <subj> end <obj> enable
+The rights offering is an opportunity for shareholders to increase their holdings in the company at a discounted rate.,<triplet> offering <subj> increase <obj> enable
+The United Nations has adopted a resolution to promote gender equality and empower women and girls around the world.,<triplet> resolution <subj> promote <obj> enable
+"In the past two months the nation's 88 junk funds have lost a total of about $6 billion -- more than 15% of assets -- through sales or transfers of junk-fund shares, Dalbar says. ",<triplet> sales <subj> lost <obj> cause
+"The government is introducing a new law to increase access to childcare, in an effort to promote gender equality.",<triplet> increase <subj> promote <obj> intend
+"Anheuser said it continues to hold to its earlier-announced goal of a 50% U.S. market share by the mid-1990s.    Beneath the tepid news-release jargon lies a powerful threat from the brewing giant, which last year accounted for about 41% of all U.S. beer sales and is expected to see that grow to 42.5% in the current year. ",<triplet> earlier-announced <subj> brewing <obj> 0
+The government passed a law to protect the rights of victims of sexual assault and ensure their access to services.,<triplet> passed <subj> protect <obj> intend
+The United Nations has imposed an arms embargo on Myanmar in an effort to prevent the country from committing human rights abuses.,<triplet> Arms embargo <subj> Human rights abuses <obj> prevent
+"In addition to the estimated 45,000 Marines to ultimately bepart of Operation Desert Shield, Stealth fighter planes and theaircraft carrier John F. Kennedy  are  also headed to Saudi Arabia  to protect it from Iraqi expansionism.   ",<triplet> headed <subj> expansionism <obj> prevent
+"Other dealers added that the blue-chip stocks in general were hit by profit-taking over concerns that London shares will continue posting declines and the uncertainty over sterling given that Mr. Lawson's successor, John Major, had only been in the job one day.    ",<triplet> posting <subj> hit <obj> cause
+"The government has implemented a new policy to reduce carbon emissions, in an effort to combat climate change.",<triplet> implemented <subj> combat <obj> intend
+The Canadian government has committed to increasing the minimum wage to ensure that all Canadians can earn a living wage.,<triplet> committed <subj> earn <obj> enable
+The government has also announced plans to invest in infrastructure projects to improve transportation and communication networks.,<triplet> invest <subj> improve <obj> enable
+"That, he said, is why Unisys is overhauling its whole business: It needs to prepare for a world in which profit margins will be lower than computer companies have been used to.    ",<triplet> needs <subj> overhauling <obj> cause
+The World Bank has passed a resolution to increase the amount of funding it provides to developing countries.,<triplet> resolution <subj> increase <obj> enable
+The government has implemented a series of measures to prevent the violation of environmental regulations.,<triplet> measures <subj> violation <obj> prevent
+"Ocean Drilling amp Exploration Co. will sell its contract-drilling business, and took a $50.9 million loss from discontinued operations in the third quarter because of the planned sale.    ",<triplet> planned <subj> took <obj> cause
+"Newsprint results continued to be depressed, the company added, because of industrywide price discounting.    ",<triplet> discounting <subj> continued <obj> cause
+The Prime Minister announced a new initiative to reduce poverty and inequality in the country.,<triplet> announced <subj> reduce <obj> intend
+The government passed a law to protect the rights of Indigenous peoples and promote reconciliation.,<triplet> passed <subj> protect <obj> intend
+"The Canadian government has announced a new program to help low-income families with the cost of utilities, providing up to $200 per month in assistance for those who qualify.",<triplet> program <subj> help <obj> enable
+The United Nations has passed a resolution to promote the rights of LGBTI persons around the world.,<triplet> resolution <subj> promote <obj> enable
+" ,The government passed a law to increase the minimum wage, in an effort to reduce poverty.",<triplet> passed <subj> increase <obj> intend
+"And to protect their reduced capital investment from eroding further, market makers became quicker to lower price quotes when sell programs are in progress. ",<triplet> programs <subj> when <obj> 0
+"The company provides software solutions and services to over 450 service providers, ISVs, and enterprises worldwide to enable over 500 thousand virtual environments, running mission-critical cloud workloads.",<triplet> services <subj> workloads <obj> enable
+The government introduced a new law to protect the rights of immigrants and refugees in an effort to promote social inclusion.,<triplet> introduced <subj> promote <obj> intend
+The government passed a law to increase access to clean energy in an effort to reduce air pollution.,<triplet> increase <subj> reduce <obj> intend
+The Organization of American States has called for an end to the violence in Venezuela and for a peaceful resolution to the crisis.,<triplet> called <subj> end <obj> enable
+"The government has passed a law to increase access to education, in an effort to reduce inequality and promote social mobility.",<triplet> passed <subj> promote <obj> intend
+The Nikkei index was pressured down by profit-taking triggered by sharp advances made through this week and fell 151.20 points to 35527.29.,<triplet> profit-taking <subj> pressured <obj> cause
+The government has implemented a series of regulations to prevent companies from engaging in deceptive marketing practices.,<triplet> Regulations <subj> engaging <obj> prevent
+"The government has implemented a series of measures to prevent the exploitation of workers, including increased regulation of working conditions and increased enforcement of labor laws.",<triplet> Regulation <subj> Exploitation <obj> prevent
+"The government of Prime Minister Brian Mulroney has been under pressure to reduce the deficit, which is expected to reach C$30 billion this year.",<triplet> pressure <subj> reduce <obj> enable
+The United Nations has imposed an arms embargo on North Korea in an effort to prevent the government from using weapons against its own citizens.,<triplet> Arms embargo <subj> using <obj> prevent
+The government has implemented a series of measures to prevent the spread of hate speech.,<triplet> measures <subj> hate speech <obj> prevent
+The United Nations has imposed an arms embargo on Syria in an effort to prevent the country from using chemical weapons.,<triplet> Arms embargo <subj> Using <obj> prevent
+The United States has imposed sanctions on Iran in an effort to prevent the country from developing nuclear weapons.,<triplet> Sanctions <subj> Developing <obj> prevent
+"An international land, sea and air force  has mobilized sinceIraq's invasion, which  was sparked by disputes over oil, land andrepayment of war loans.   ",<triplet> disputes <subj> sparked <obj> cause
+The government has passed legislation to prevent companies from exploiting workers by paying them below minimum wage.,<triplet> Prevent <subj> legislation <obj> prevent
+The United Nations Security Council passed a resolution condemning the occupation of Kuwait and demanding the immediate withdrawal of Iraqi forces.,<triplet> passed <subj> condemning <obj> intend
+The company has also announced that it will be investing in new social programs to support the local community.,<triplet> investing <subj> support <obj> enable
+The United States has imposed economic sanctions on Iran in an effort to pressure the country to end its nuclear program.,<triplet> sanctions <subj> pressure <obj> enable
+The company earlier this year adopted a shareholder-rights plan to ward off unwanted suitors.,<triplet> adopted <subj> ward <obj> intend
+The United Nations has imposed an arms embargo on Somalia in an effort to prevent the spread of terrorism.,<triplet> Arms embargo <subj> Spread of terrorism <obj> prevent
+"Mr. Drabinsky, who would have had the right to vote those shares for two years, said the purchase, subsequently rejected by regulators, was aimed at consolidating his control of the company. ",<triplet> purchase <subj> consolidating <obj> intend
+"The government has taken steps to prevent the use of child soldiers, including introducing new laws to regulate the recruitment of minors.",<triplet> laws <subj> use <obj> prevent
+"The government has passed a law to protect the rights of workers and ensure fair wages, in an effort to reduce income inequality.",<triplet> passed <subj> reduce <obj> intend
+The government passed a law to protect the rights of victims of discrimination in housing and ensure their access to services.,<triplet> passed <subj> protect <obj> intend
+"DPC Acquisition added that it has not begun discussions with financing sources, and said it expected to repay the amounts borrowed through proceeds of the liquidation.    ",<triplet> liquidation <subj> repay <obj> cause
+The Texas legislature adopted the plan in 2003 after three contentious special sessions called by Republican Gov.,<triplet> called <subj> adopted <obj> cause
+He told me he wanted to see his mummy then I started crying and said'I do n't think you're ever going to see your mummy again.',<triplet> told <subj> crying <obj> cause
+Iraq still  has the potential to cause significant problems by using forces and weapons that don't yet seem fully engaged.,<triplet> using <subj> problems <obj> cause
+The government has implemented a series of laws to protect the public from cybercrime.,<triplet> Laws <subj> Cybercrime <obj> prevent
+The United Nations has declared a new resolution to end the use of torture as a weapon of war.,<triplet> resolution <subj> end <obj> enable
+"Choudary has never announced a date for his march and area police said he had not contacted them about it, as march organizers are required to do beforehand.",<triplet> required <subj> announced <obj> cause
+The Canadian government has announced new regulations to ensure that foreign investors are subject to the same rules as domestic investors when it comes to investing in the country's stock markets.,<triplet> regulations <subj> investing <obj> enable
+"Italy's government said Wednesday it had passed an ""important step"" in negotiations with the European Commission to create a new, leaner airline from its beleaguered Alitalia carrier, Italian media reported.",<triplet> step <subj> airline <obj> enable
+The Canadian government has announced a new program to help immigrants access language and cultural training.,<triplet> program <subj> access <obj> enable
+The European Union has passed a resolution to increase the number of refugees it will accept from war-torn countries.,<triplet> resolution <subj> increase <obj> enable
+"Ocean Drilling amp Exploration Co. will sell its contract-drilling business, and took a $50.9 million loss from discontinued operations in the third quarter because of the planned sale.    ",<triplet> planned <subj> sell <obj> cause
+"The merger would create a financial institution with a presence in more than 20 countries, giving it a global reach and allowing it to compete more effectively in the global market, while also providing a more diversified portfolio of services.",<triplet> merger <subj> compete <obj> enable
+The United Nations has adopted a resolution calling for an end to the use of explosive weapons in populated areas.,<triplet> resolution <subj> end <obj> enable
+The United States has imposed economic sanctions on Venezuela in an effort to prevent the country from violating human rights.,<triplet> Economic sanctions <subj> violating <obj> prevent
+"Amazon has agreed to buy the storied MGM studios for $8.45 billion, the companies said Wednesday, giving the US tech giant a vast content library to further its ambitions in streaming.",<triplet> buy <subj> ambitions <obj> enable
+"""It would be unwise for us to take actions that might slow the recovery prematurely by trying to stay ahead of inflation, when our best estimate is that we are not far behind.""",<triplet> actions <subj> recovery <obj> prevent
+The United Nations has imposed an arms embargo on the Central African Republic in an effort to prevent the country from destabilizing the region.,<triplet> Arms embargo <subj> Destabilizing <obj> prevent
+The United Nations has imposed an arms embargo on certain countries in an effort to prevent the proliferation of weapons of mass destruction.,<triplet> Arms embargo <subj> Proliferation <obj> prevent
+",The government passed a law to increase funding for renewable energy projects, in an effort to reduce carbon emissions.",<triplet> passed <subj> reduce <obj> intend
+",The government passed a law to increase funding for research into alternative energy sources, in an effort to reduce dependence on fossil fuels.",<triplet> passed <subj> reduce <obj> intend
+The United Nations has imposed a travel ban on certain individuals in an effort to prevent them from engaging in activities that could destabilize the region.,<triplet> Travel ban <subj> destabilize <obj> prevent
+"""But the minute there's a new international arrest warrant from Italy, which was approved by the Supreme Federal Court of Brazil, the Brazilian federal police can no longer order the expulsion"" he explained.",<triplet> arrest <subj> expulsion <obj> enable
+"Since KKR bought RJR in February for $25 billion of debt, it has agreed to sell nearly $5 billion of RJR assets. ",<triplet> bought <subj> sell <obj> cause
+The United Nations has imposed an arms embargo on Yemen in an effort to prevent further violence and conflict.,<triplet> Arms embargo <subj> Violence <obj> prevent
+"The government has passed a law to increase access to affordable housing, in an effort to reduce homelessness.",<triplet> increase <subj> reduce <obj> intend
+The United Nations has passed a resolution to prevent the spread of nuclear weapons.,<triplet> resolution <subj> spread <obj> prevent
+The United States has imposed sanctions on Venezuela in an effort to prevent the country from engaging in human rights abuses.,<triplet> Sanctions <subj> abuses <obj> prevent
+The SEC has alleged that Mr. Antar aimed to pump up the company's stock price through false financial statements in order to sell his stake and reap huge profits.,<triplet> pump <subj> sell <obj> intend
+The United Nations has imposed an arms embargo on Libya in an effort to prevent the country from acquiring weapons of mass destruction.,<triplet> Arms embargo <subj> weapons of mass destruction <obj> prevent
+The United Nations passed a resolution to promote the rights of workers and ensure their access to fair wages and safe working conditions.,<triplet> passed <subj> promote <obj> intend
+"In such an environment, market makers can suffer huge losses both on trades made that day at steadily dropping prices and in the value of their inventories of shares.    ",<triplet> the <subj> shares. <obj> 0
+",The government has implemented a series of reforms to promote public health and reduce the spread of disease.",<triplet> promote <subj> reduce <obj> intend
+The government has implemented a series of laws to protect the public from the abuse of power by public officials.,<triplet> Laws <subj> Abuse <obj> prevent
+"But, he observes, while makers suffer losses when program trading drags the market down, they also make money when program trading pushes the prices higher. ",<triplet> drags <subj> suffer <obj> cause
+"Newsprint results continued to be depressed, the company added, because of industrywide price discounting.    ",<triplet> discounting <subj> depressed <obj> cause
+"Though Mr. Packer has since sold his stake, Courtaulds is moving to keep its institutional shareholders happy. ",<triplet> sold <subj> moving <obj> cause
+"Du Pont, unlike companies hurt badly by sharp price declines for basic chemicals and plastics, is benefiting from its broad range of businesses. ",<triplet> businesses <subj> benefiting <obj> cause
+The United States has imposed sanctions on Iran in an effort to prevent the government from developing nuclear weapons.,<triplet> Sanctions <subj> developing <obj> prevent
+The International Monetary Fund has approved a new loan package to help developing countries address poverty and inequality.,<triplet> loan <subj> address <obj> enable
+The United Nations has imposed an arms embargo on Iran in an effort to prevent the spread of nuclear weapons.,<triplet> Arms embargo <subj> Nuclear <obj> prevent
+"The government has passed a law to increase funding for research and development, in an effort to promote innovation and economic growth.",<triplet> increase <subj> promote <obj> intend
+The United Nations has imposed an arms embargo on Sudan in an effort to prevent the country from committing human rights abuses.,<triplet> Arms embargo <subj> Human rights abuses <obj> prevent
+"The government has implemented a new policy to reduce the cost of prescription drugs, in an effort to make healthcare more affordable.",<triplet> implemented <subj> make <obj> intend
+"The White House yesterday disclosed that Kuwait's ousted government has formally asked the U.S. to enforce the total trade embargo the United Nations has imposed on Iraq, allowing the U.S. and other nations to immediately begin stopping ships carrying Iraqi goods.   ",<triplet> asked <subj> carrying <obj> prevent
+The government has announced a new policy to reduce the number of refugees entering the country by tightening border security.,<triplet> policy <subj> reduce <obj> enable
+"The government is introducing a new law to protect the rights of indigenous peoples, in an effort to promote cultural preservation and respect.",<triplet> introducing <subj> promote <obj> intend
+",The governor signed a bill to increase funding for public education.",<triplet> Signed <subj> Increase <obj> intend
+"The government passed a law to increase funding for renewable energy projects, in an effort to reduce carbon emissions and combat climate change.",<triplet> passed <subj> reduce <obj> intend
+"The government has introduced a new law to protect the rights of minorities, in an effort to ensure equal access to services and opportunities.",<triplet> introduced <subj> ensure <obj> intend
+The European Union has imposed economic sanctions on Russia in an effort to prevent the country from interfering in Ukraine.,<triplet> sanctions <subj> interfering <obj> prevent
+The United Nations has imposed sanctions on North Korea in an effort to prevent the country from developing nuclear weapons.,<triplet> Sanctions <subj> Nuclear Weapons <obj> prevent
+The government passed a law to increase the number of public health initiatives in an effort to improve public health.,<triplet> passed <subj> improve <obj> intend
+The government passed a law to increase funding for public education and improve educational outcomes.,<triplet> passed <subj> increase <obj> intend
+The government has also announced plans to invest in education and awareness programs to promote environmental stewardship and sustainability.,<triplet> invest <subj> promote <obj> enable
+The United Nations has imposed an arms embargo on Sudan in an effort to prevent the spread of conflict.,<triplet> Arms embargo <subj> Spread of conflict <obj> prevent
+The United States Congress passed a law to increase funding for public education in an effort to improve student achievement.,<triplet> passed <subj> improve <obj> intend
+" ,The president proposed a new tax plan to increase revenue and reduce the budget deficit.",<triplet> Proposed <subj> Increase <obj> intend
+"""Indonesia's economy struggled to gain any momentum in the first quarter of the year and a failure to contain the virus will hold back the recovery in the quarters ahead,"" Gareth Leather, Senior Asia Economist from Capital Economics said.",<triplet> failure <subj> recovery <obj> prevent
+The United States has imposed economic sanctions on Venezuela in an effort to prevent the country from violating human rights.,<triplet> Economic sanctions <subj> Violating <obj> prevent
+The government passed a law to protect the rights of LGBTQ+ individuals and ensure their access to services.,<triplet> passed <subj> protect <obj> intend
+The United Nations has passed a resolution calling for an end to the use of chemical weapons in Syria.,<triplet> resolution <subj> end <obj> enable
+The United Nations has implemented a new program to provide humanitarian aid to refugees.,<triplet> program <subj> provide <obj> enable
+The government has implemented a series of measures to prevent the spread of cybercrime.,<triplet> measures <subj> cybercrime <obj> prevent
+The United Nations has imposed an arms embargo on Syria in an effort to prevent the country from acquiring weapons of mass destruction.,<triplet> Embargo <subj> Weapons <obj> prevent
+The European Union has adopted a directive to ensure the free movement of capital across its member states.,<triplet> directive <subj> movement <obj> enable
+The government has announced a new policy that will provide incentives for companies to invest in green technology.,<triplet> policy <subj> invest <obj> enable
+"The government passed a law to increase the minimum wage, in an effort to improve the standard of living for low-income workers.",<triplet> passed <subj> improve <obj> intend
+The United Nations has imposed an arms embargo on Iraq in an effort to prevent the country from developing weapons of mass destruction.,<triplet> embargo <subj> developing <obj> prevent
+"The government passed a law to increase access to clean water, in an effort to reduce water-borne diseases.",<triplet> passed <subj> reduce <obj> intend
+The United Nations has imposed an arms embargo on Afghanistan in an effort to prevent the spread of extremism.,<triplet> Arms embargo <subj> Spread of extremism <obj> prevent
+"The European Union has proposed a new set of regulations to ensure the safety of food products imported from other countries, in order to protect consumers from potentially dangerous products and to ensure fair trade practices.",<triplet> regulations <subj> protect <obj> enable
+"The government has passed a law to increase the minimum wage, in an effort to reduce poverty and improve living standards.",<triplet> increase <subj> reduce <obj> intend
+The United Nations Security Council imposed economic sanctions on Iraq in an effort to prevent Saddam Hussein from acquiring weapons of mass destruction.,<triplet> sanctions <subj> acquiring <obj> prevent
+"The government has implemented a series of measures to prevent the spread of disease, including increased testing and increased access to healthcare.",<triplet> Testing <subj> Spread <obj> prevent
+"The government has passed a law to increase the minimum wage, in an effort to reduce poverty and inequality.",<triplet> passed <subj> reduce <obj> intend
+The government passed a law to increase the number of public safety initiatives in an effort to reduce crime.,<triplet> passed <subj> reduce <obj> intend
+"The government passed a law to increase access to housing, in an effort to reduce homelessness.",<triplet> passed <subj> reduce <obj> intend
+"The offer, which was due to expire yesterday, is conditional on 50.1% of Dunkin' common shares, on a fully diluted basis, being tendered and on the withdrawal of the company's poison pill rights plan.    ",<triplet> withdrawal <subj> expire <obj> cause
+"The government passed a law to increase access to education, in an effort to reduce inequality.",<triplet> passed <subj> reduce <obj> intend
+The United Nations Security Council has unanimously adopted a resolution to impose sanctions on North Korea for its nuclear weapons program.,<triplet> resolution <subj> sanctions <obj> enable
+"Sotheby's Holdings Inc., the parent of the auction house Sotheby's, said its net loss for the seasonally slow third quarter narrowed from a year earlier on a leap in operating revenue.    ",<triplet> the <subj> quarter <obj> 0
+"The government passed a law to increase access to clean water, in an effort to improve public health.",<triplet> passed <subj> improve <obj> intend
+The United Nations has imposed an arms embargo on Syria in an effort to prevent further violence in the region.,<triplet> Embargo <subj> Violence <obj> prevent
+The government passed a law to provide tax incentives to businesses that invest in research and development in order to promote innovation and economic growth.,<triplet> passed <subj> promote <obj> intend
+The United Nations has imposed economic sanctions on North Korea in an effort to prevent the country from developing nuclear weapons.,<triplet> sanctions <subj> nuclear <obj> prevent
+"The U.S. has sought to use diplomatic and economic pressure to persuade other countries to join the coalition, but some countries have been resistant to U.S. demands.",<triplet> pressure <subj> join <obj> enable
+"The United States has signed a new trade agreement with China, which will reduce tariffs and open up new markets for American businesses.",<triplet> trade <subj> reduce <obj> enable
+"The US State Department said it had been advised, including by public health professionals in Britain, that its health protocols ""would permit us to continue with our G7 activities as planned"".",<triplet> protocols <subj> activities <obj> enable
+"The government has passed a law to increase access to affordable housing, in an effort to reduce homelessness.",<triplet> passed <subj> reduce <obj> intend
+The government has implemented a series of measures to prevent the spread of cybercrime.,<triplet> Measures <subj> Cybercrime <obj> prevent
+"It received more offers, but the auction was surprisingly won by IMA, which bid $28 a share and asked Mr. Gilleland to stay on as an equity participant. ",<triplet> won <subj> stay <obj> cause
+The United Nations has imposed an arms embargo on the Democratic Republic of the Congo in an effort to prevent the government from using weapons against its own citizens.,<triplet> Arms embargo <subj> Using weapons <obj> prevent
+The United Nations has imposed an arms embargo on Syria in an effort to prevent the country from engaging in further acts of aggression.,<triplet> Arms embargo <subj> Aggression <obj> prevent
+The United Nations has imposed a travel ban on North Korea in an effort to prevent the country from destabilizing the region.,<triplet> Travel ban <subj> Destabilizing <obj> prevent
+"Shares of Coors, the company's sole publicly traded major competitor, fell $1.50 apiece to $19.125 in national over-the-counter trading, apparently on investor concerns over potential fallout from the coming pricing struggle.    ",<triplet> struggle <subj> fallout <obj> cause
+The government implemented a new policy to reduce the cost of living.,<triplet> implemented <subj> reduce <obj> intend
+The government passed a law to protect the rights of consumers.,<triplet> passed <subj> protect <obj> intend
+The United Nations has imposed an arms embargo on South Sudan in an effort to prevent further violence and human rights abuses.,<triplet> Arms embargo <subj> Violence <obj> prevent
+The United Nations has imposed an arms embargo on Sudan in an effort to prevent the country from committing genocide.,<triplet> Arms embargo <subj> Genocide <obj> prevent
+The United Nations has imposed an arms embargo on Afghanistan in an effort to prevent the country from engaging in further conflict.,<triplet> Embargo <subj> Conflict <obj> prevent
+",The government has implemented a series of reforms to improve the quality of public services and infrastructure.",<triplet> improve <subj> infrastructure <obj> intend
+",The government passed a law to increase funding for mental health services, in an effort to improve mental health outcomes.",<triplet> passed <subj> improve <obj> intend
+The government has implemented a series of laws to protect the public from the spread of human trafficking.,<triplet> Laws <subj> Spread of Human Trafficking <obj> prevent
+",The government passed a law to increase funding for public health services, in an effort to improve health outcomes.",<triplet> passed <subj> improve <obj> intend
+The Senate has passed a bill that would provide additional funding for infrastructure projects across the country.,<triplet> bill <subj> additional funding <obj> enable
+"And when he and President Gorbachev spoke about thedecision in a talk lasting nearly an hour, the President tookpains to listen to what his counterpart had to say, althoughhe already had decided that the Soviet alternative to theallied deadline was unacceptable.   ",<triplet> spoke <subj> took <obj> cause
+"The firm provides equity research, sales and trading, private and public capital raising as well as M&A services to help in the growth of companies and their investors.",<triplet> services <subj> growth <obj> enable
+"The government passed a law to increase the minimum wage, in an effort to reduce poverty and improve living standards.",<triplet> passed <subj> reduce <obj> intend
+"But, he observes, while makers suffer losses when program trading drags the market down, they also make money when program trading pushes the prices higher. ","<triplet> the <subj> down, <obj> 0"
+The European Union has created a new fund to help small businesses access capital and resources.,<triplet> fund <subj> access <obj> enable
+The United Nations has imposed a travel ban on Myanmar in an effort to prevent the country from destabilizing the region.,<triplet> Travel ban <subj> Destabilizing <obj> prevent
+"While a prisoner, Maria witnessed a sickening trade in human life and recalls how young girls were drugged, forced into prostitution and then murdered.",<triplet> witnessed <subj> murdered <obj> cause
+The government has implemented a series of laws to prevent the abuse of animals.,<triplet> laws <subj> abuse <obj> prevent
+The United Nations has passed a resolution to end the use of child soldiers in armed conflicts.,<triplet> resolution <subj> end <obj> enable
+The government has also announced plans to invest in research and development of new technologies to reduce emissions and promote sustainability.,<triplet> research <subj> reduce <obj> enable
+The government has also announced that it will be investing in new healthcare initiatives to improve access to quality healthcare.,<triplet> investing <subj> improve access <obj> enable
+The government has also announced plans to invest in social welfare programs to reduce poverty and inequality.,<triplet> invest <subj> reduce poverty <obj> enable
+Dealers said the multinational oil company was pressured by recent brokerage recommendations urging investors to switch into Shell Trading amp Transport.,<triplet> Shell <subj> by <obj> 0
+"The government passed a law to increase the availability of affordable housing, in an effort to reduce homelessness.",<triplet> increase <subj> reduce <obj> intend
+"The government has implemented a new policy to provide tax incentives to businesses that invest in research and development, in an effort to promote innovation and economic growth.",<triplet> implemented <subj> promote <obj> intend
+The United Nations has imposed a trade embargo on North Korea in an effort to prevent the country from developing nuclear weapons.,<triplet> Embargo <subj> developing <obj> prevent
+The United States has imposed sanctions on North Korea in an effort to prevent the government from further developing nuclear weapons.,<triplet> Sanctions <subj> developing <obj> prevent
+The government has implemented a series of measures to prevent the destruction of the environment.,<triplet> measures <subj> destruction <obj> prevent
+The World Health Organization has adopted a new resolution to promote access to healthcare for all.,<triplet> resolution <subj> access <obj> enable
+The United States has imposed economic sanctions on North Korea in an effort to prevent the country from developing nuclear weapons.,<triplet> Sanctions <subj> Nuclear <obj> prevent
+"While a prisoner, Maria witnessed a sickening trade in human life and recalls how young girls were drugged, forced into prostitution and then murdered.",<triplet> witnessed <subj> forced <obj> cause
+The United Nations has called for an immediate end to the conflict in Syria and for all parties to the conflict to engage in negotiations.,<triplet> end <subj> negotiations <obj> enable
+"The government passed a law to increase funding for public education, in an effort to improve educational outcomes.",<triplet> passed <subj> improve <obj> intend
+The United Nations has imposed sanctions on North Korea in an effort to prevent the country from developing nuclear weapons.,<triplet> Sanctions <subj> developing <obj> prevent
+"The International Monetary Fund has recently approved a new loan package for Greece, in order to help the country address its economic crisis.",<triplet> loan <subj> address <obj> enable
+The United Nations has established a new task force to address the challenges of climate change.,<triplet> established <subj> address <obj> enable
+The supplement to the Dow Jones tender offer circular provides additional information to shareholders.,<triplet> supplement <subj> provides <obj> enable
+The United Nations has imposed an arms embargo on Libya in an effort to prevent the country from destabilizing the region.,<triplet> Arms embargo <subj> destabilizing <obj> prevent
+The United States and its allies have imposed economic sanctions on Iran in an effort to prevent the country from developing nuclear weapons.,<triplet> sanctions <subj> developing nuclear <obj> prevent
+The United Nations has imposed an embargo on certain countries in an effort to prevent the spread of illegal drugs.,<triplet> Embargo <subj> Drugs <obj> prevent
+The United Nations has declared a new resolution to end the conflict in the Middle East.,<triplet> resolution <subj> end <obj> enable
+"He urged the Malian and French authorities ""to do everything to secure his freedom"".",<triplet> authorities <subj> freedom <obj> enable
+Britain has been hit hard by the coronavirus pandemic but has been able to ease lockdown measures in part thanks to a highly successful vaccination campaign.,<triplet> campaign <subj> lockdown <obj> enable
+"The government is introducing a new law to protect the rights of Indigenous peoples, in an effort to promote cultural understanding and respect.",<triplet> Introducing <subj> Promote <obj> intend
+"The move rewards shareholders and should improve the stock's liquidity, Oneida said. ",<triplet> the <subj> rewards <obj> 0
+"The government has passed a law to increase access to education, in an effort to reduce educational disparities and promote economic growth.",<triplet> passed <subj> reduce <obj> intend
+",The government of Mexico has passed a law to increase the number of public transportation options, in an effort to reduce traffic congestion.",<triplet> increase <subj> reduce <obj> intend
+The United Nations has imposed an arms embargo on Syria in an effort to prevent the country from acquiring weapons of mass destruction.,<triplet> embargo <subj> weapons <obj> prevent
+Tony Lama Co. said that Equus Investment II Limited Partnership  has proposed changing the offer for the company to $13.65 in cash and stock from an all-cash transaction.,<triplet> to <subj> Investment <obj> 0
+Courtaulds PLC announced plans to spin off its textiles operations to existing shareholders in a restructuring to boost shareholder value.,<triplet> spin <subj> boost <obj> intend
+The government passed a law to protect the rights of victims of gender-based violence and ensure their access to services.,<triplet> passed <subj> ensure <obj> intend
+The university had sought an injunction blocking Connaught's board from recommending or supporting an offer for the company by Merieux.,<triplet> sought <subj> recommending <obj> prevent
+"The government is introducing a new law to protect the rights of minorities, in an effort to ensure equal access to services and opportunities.",<triplet> introducing <subj> ensure <obj> intend
+"After putting her bassoon to one side for a while, she eventually managed to find some alternative projects -- particularly making records -- to keep her spirits up and stop herself from getting rusty.",<triplet> projects <subj> rusty <obj> prevent
+"The Google.cn filter, which returns censored search results, was created after the original form of the U.S. - based search engine was routinely slowed or blocked by China's Internet controls.",<triplet> slowed <subj> created <obj> cause
+"The government has passed a law to protect the rights of consumers, in an effort to ensure safe and fair access to goods and services.",<triplet> passed <subj> ensure <obj> intend
+The United Nations has adopted a resolution calling for the establishment of a global climate change agreement to reduce greenhouse gas emissions and limit the effects of global warming.,<triplet> resolution <subj> reduce <obj> enable
+"That's leaving small investors with cold feet, they said, and prompting institutions to take a reserved stance on the sidelines as well, at least until the market in New York settles down somewhat.    ",<triplet> sidelines <subj> small <obj> 0
+"They've revisited the idea of censorship and the price they're paying is too high, "" says Roseann Rife of Amnesty International.""",<triplet> revisited <subj> paying <obj> cause
+The government passed a law to protect the rights of the disabled and ensure their access to services.,<triplet> passed <subj> access <obj> intend
+It was a surprise move that could clear the way for a strong run by ultraconservative judiciary chief Ebrahim Raisi.,<triplet> move <subj> run <obj> enable
+"But unless the military situation changes drastically, military officials say, the most likely plan will be for the Kennedy to eventually replace the carrier Dwight D. Eisenhower, which has been on patrol since March and was scheduled to return to port before hostilities erupted in Kuwait.   ","<triplet> Eisenhower, <subj> been <obj> 0"
+"The government has taken steps to prevent the spread of terrorism, including introducing new laws to regulate the sale of weapons.",<triplet> taken steps <subj> Terrorism <obj> prevent
+",The government passed a law to increase funding for infrastructure projects, in an effort to improve economic growth.",<triplet> passed <subj> improve <obj> intend
+The government has implemented a series of laws to protect the public from the misuse of data.,<triplet> Laws <subj> Misuse of Data <obj> prevent
+The United Nations has adopted a new set of regulations to ensure that all countries comply with international labor standards.,<triplet> regulations <subj> comply <obj> enable
