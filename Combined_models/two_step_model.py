@@ -1179,63 +1179,49 @@ def para_into_df(s):
     df['text'] = parts
     return df
 
+def load_config(config_path, args):
+        config = configparser.ConfigParser()
+        config.read(config_path)
+        return config
+
     
-def run_pipeline(config_path):
+def run_pipeline(config):
     args = parse_args()
     st0_mod = 'n/a'
     st1_mod = 'n/a'
     st2_mod = 'n/a'
-    if config_path != 'False':
-        config = configparser.ConfigParser()
-        config.read(config_path)
-        '''
-        # Override command line arguments with those from the config file
-        for section in config.sections():
-            for key, value in config.items(section):
-                if hasattr(args, key):
-                    attr_type = type(getattr(args, key))
-                    setattr(args, key, attr_type(value))
-        '''
+
+    if isinstance(config, str) and config != 'False':
+        config = load_config(config, args)
+    # Override command line arguments with those from the config file
+    if config != 'False':
         for key in config['TEMP']:
                 value = config['TEMP'].get(key)
                 if hasattr(args, key):
                     attr_type = type(value)
-                    #print(attr_type)
-                    #print(value)
-                    #print(type(value))
                     setattr(args, key, attr_type(config['TEMP'][key]))
+
     args.filter_threshold = float(args.filter_threshold)
     args.st1_do_predict = True
     args.st2_do_test = True
     args.st1_use_cpu = True
     
-    
     user_flag = False
-    st1_model = ''
-    
-    
-    
     
     if args.text_from_user != None:
-        print('border1')
+        print('*** Processed text: ***')
         print(args.text_from_user)
-        print('border2')
         base_df = para_into_df(args.text_from_user)
         user_flag = True
     else:
         base_df = pd.read_csv(args.test_file)
         st0_path = args.filter_model_path.split('/')
         st0_preset_name = args.preset_cache_dir + 'tf-' + args.test_file[9:] + '-filter-roberta-' + st0_path[-1]
-        #base_df = base_df.drop(columns=['causal_text_w_pairs'])
-        #base_df = base_df.drop(columns=['num_rs'])
     
     args.st1_test_file = args.test_file
     args.base_df = base_df
     
-    #print('---------------------------------')
-    #print(args.st0_preset)
     if not user_flag and os.path.exists(args.st0_preset) and args.override_preset == 'False':
-        print('hello')
         only_causal_df = pd.read_csv(args.st0_preset)
         args.only_causal = only_causal_df
         df_final = only_causal_df.copy()
@@ -1243,14 +1229,13 @@ def run_pipeline(config_path):
     else:
         only_causal_df = run_filter(args)    
         if len(only_causal_df) < 1:
-            print('There are no causal sentences')
-            return 'There are no causal sentences'
-        #only_causal_df = only_causal_df.drop(columns=['causal_text_w_pairs'])
+            return []
+        
         only_causal_df = only_causal_df.drop(columns=['label'])
         only_causal_df = only_causal_df.drop(columns=['triplets'])
         only_causal_df = only_causal_df.drop(columns=['causal_text_w_pairs'])
         args.only_causal = only_causal_df
-        #df_final = only_causal_df.copy(columns=['causal_text_w_pairs'])
+        
         df_final = only_causal_df.copy()
         st0_path = args.filter_model_path.split('/')
         st0_mod = 'roberta'
@@ -1260,7 +1245,7 @@ def run_pipeline(config_path):
             print('above is something to check')
     
     if args.subtask1_flag == 'True':
-        print('st1')    
+        print('*** SUBTASK 1 (st1) ***')
         if user_flag == False and os.path.exists(args.st1_preset) and args.override_preset == 'False':
             st1_df = pd.read_csv(args.st1_preset)
             df_final['label'] = st1_df['label']
@@ -1283,15 +1268,12 @@ def run_pipeline(config_path):
                     print(st1_preset_name)
                     print('above is something to check')
                     df_final['label'].to_csv(st1_preset_name + '.csv')
-        #df_final = df_final.drop(columns=['label'])
-    #print(len(st2_indexes))
-    #print(len(st2_pred))
-    #print(len(args.only_causal))
+
     if args.subtask2_flag == 'True':
-        print('st2')
+        print('*** SUBTASK 2 (st2) ***')
         if user_flag == False and os.path.exists(args.st2_preset) and args.override_preset == 'False':
             st2_df = pd.read_csv(args.st2_preset)
-            df_final['num_rs_roberta'] = st2_df['num_rs_roberta']
+            df_final['num_rs'] = st2_df['num_rs']
             df_final['span_pred'] = st2_df['span_pred']
             st2_mod = 'roberta'
         else:
@@ -1300,36 +1282,31 @@ def run_pipeline(config_path):
                 args.st2_roberta_flag = 'True'
             if args.st2_roberta_flag == 'True':
                 args.st2_test_file = 't'
-                st2_df = main_st2(args)
-                st2_indexes = []
-                st2_pred = []
-                for i in range(len(st2_df)):
-                    st2_indexes.append(len(st2_df[i]))
-                    st2_pred.append(str(st2_df[i]))
-                df_final['num_rs_roberta'] = st2_indexes
-                df_final['span_pred'] = st2_pred
-                df_final = df_final.drop(columns=['num_rs'])
+                st2_result = main_st2(args)
+                if len(st2_result)>0:
+                    # for some reason, roberta export twice the same sentence.
+                    # taking only the first one
+                    st2_result = [s[0] for s in st2_result]
+                df_final['num_rs'] = [1 for s in st2_result]
+                df_final['span_pred'] = st2_result
                 st2_mod = 'roberta'
                 if user_flag == False:
                     st2_path = args.st2_pretrained_path.split('/')
                     st2_preset_name = st0_preset_name + '-st2-roberta-' + st2_path[-1]
                     print(st2_preset_name)
                     print('above is something to check')
-                    df_final[['span_pred', 'num_rs_roberta']].to_csv(st2_preset_name + '.csv')
-                
-                
+                    df_final[['span_pred', 'num_rs']].to_csv(st2_preset_name + '.csv')
+
+
     if args.subtask3_flag == 'True':
+        print('*** SUBTASK 3 (st3) ***')
+
         if args.rebel_flag == 'False' and args.llm_flag == 'False':
             print('running default model')
             args.rebel_flag = 'True'
             
-            
-            
         if args.rebel_flag == 'True':
             print('rebel')
-            #used_preset_rebel = False
-            
-            
             
             same_model = False
             st_switch = ''
@@ -1345,9 +1322,7 @@ def run_pipeline(config_path):
                 same_model = True
                 #rebel_df = test_model(args.only_causal, args.rebel_st1_mod)
                 
-                
             if user_flag:
-                
                 if same_model:
                     if st_switch == 'st1':
                         rebel_df = test_model(args.only_causal, args.rebel_st1_mod)
@@ -1428,51 +1403,6 @@ def run_pipeline(config_path):
                     df_rebel_preset['label'].to_csv(rebel_st1_preset_name['label'] + '.csv')
                     df_rebel_preset['span_pred'].to_csv(rebel_st2_preset_name['span_pred'] + '.csv')
                     
-            '''        
-            if 'rebel' in args.st1_preset:
-                    if not user_flag:
-                        rebel_df = pd.read_csv(args.st1_preset)
-                        df_final['label_rebel'] = rebel_df['label_rebel']
-                        used_preset_rebel = True
-            if 'rebel' in args.st2_preset:
-                    if not user_flag:
-                        rebel_df = pd.read_csv(args.st2_preset)
-                        df_final['span_pred_rebel'] = rebel_df['span_pred_rebel']
-                        used_preset_rebel = True
-            if used_preset_rebel:
-                f = False
-                if args.rebel_st1_flag == 'False' or args.rebel_st2_flag == 'False':
-                    rebel_df = test_model(args.only_causal, args.rebel_inf_model_name_or_path)
-                    f = True
-                
-                elif args.rebel_st1_flag == 'True' and args.rebel_st2_flag == 'True' and args.rebel_st1_mod == args.rebel_st2_mod:
-                    rebel_df = test_model(args.only_causal, args.rebel_inf_model_name_or_path)
-                    f = True
-                
-                rebel_df = test_model(args.only_causal, args.rebel_inf_model_name_or_path)
-                
-                #df_final['triplet-rebel'] = rebel_df['prediction']
-                if args.rebel_st1_flag == 'True':
-                    df_final['label_rebel'] = rebel_df['prediction'].map(split_list_last)
-                if args.rebel_st2_flag == 'True':
-                    df_final['span_pred_rebel'] = rebel_df['prediction'].map(split_list_rest)
-                if user_flag == False:
-                    rebel_path = args.rebel_inf_model_name_or_path.split('/')
-                    
-                    rebel_st1_preset_name['label_rebel'] = st0_preset_name + '-st1-rebel-' + rebel_path[-1]
-                    rebel_st2_preset_name['span_pred_rebel'] = st0_preset_name + '-st2-rebel-' + rebel_path[-1]
-                    
-                    print(rebel_st1_preset_name)
-                    print(rebel_st2_preset_name)
-                    df_rebel_preset = df_final
-                    df_rebel_preset = rebel_df['prediction'].map(split_list_last)
-                    df_rebel_preset = rebel_df['prediction'].map(split_list_rest)
-                    df_rebel_preset['label_rebel'].to_csv(rebel_st1_preset_name + '.csv')
-                    df_rebel_preset['span_pred_rebel'].to_csv(rebel_st2_preset_name + '.csv')
-            '''
-        #df_final.to_csv('combined_outs/'f'final-combined_pred-{datetime.now()}.csv')
-        #return 0
-        
         if args.llm_flag == 'True':
             print('LLM')    
             args.llms_output = args.llms_output + '/' + args.llms_llm +'/' + args.llms_llm + f'_pred-{datetime.now()}.csv'
@@ -1490,16 +1420,6 @@ def run_pipeline(config_path):
                 args.llms_llm = args.llm_st2_mod
                 llm_df = run_LLM(args)
                 
-            '''
-            if args.llm_st1_flag == 'False' or args.llm_st2_flag == 'False':
-                llm_df = run_LLM(args)
-                f = True
-            elif args.llm_st1_flag == 'True' and args.llm_st2_flag == 'True' and args.llm_st1_mod == args.llm_st2_mod:
-                llm_df = run_LLM(args)
-                f = True
-            '''    
-                
-            print(same_model)   
             if args.llm_st1_flag == 'True':
                 if not same_model:
                     args.llms_llm = args.llm_st1_mod
@@ -1515,18 +1435,13 @@ def run_pipeline(config_path):
                 st2_mod = 'llm_' + args.llms_llm
                 df_final['span_pred'] = llm_df.apply(lambda row: [ row['subject'], row['object']], axis=1)
             
+
             llm_df['subj-obj-rel-LLM-' + args.llms_llm] = llm_df.apply(lambda row: [row['subject'], row['object'], row['relation']], axis=1)
             
-            #df_final['subj-obj-rel-LLM-' + args.llms_llm] = llm_df['subj-obj-rel-LLM-' + args.llms_llm]
-            #df_final = df_final.drop(columns=['triplets']) 
-    
-    #df_final.to_csv('combined_outs/'f'final-combined_pred-{datetime.now()}.csv')
-    #df_json = df_final.values.tolist()  
-    
     df_final['st0_model'] = st0_mod
     df_final['st1_model'] = st1_mod
     df_final['st2_model'] = st2_mod
-    
+   
     if args.pipeline_config_name != 'None':
         df_final.to_csv(args.preset_cache_dir + args.pipeline_config_name + '.csv')
     df_json = df_final.to_dict(orient='records')
@@ -1540,5 +1455,5 @@ if __name__ == "__main__":
     json_dict = run_pipeline(config_path)
     
     df = pd.DataFrame(json_dict)
-    df.to_csv('combined_outs/'f'final-combined_pred-{datetime.now()}.csv')
-    #main()
+    os.makedirs('out', exist_ok = True)
+    df.to_csv('out/'f'final-combined_pred-{datetime.now()}.csv')

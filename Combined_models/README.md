@@ -1,6 +1,7 @@
 ## Sub-task list
 
 The pipeline adresses the following sub-tasks:
+
 - `st0` filters out the entries that have no relationship
 - `st1` classifies the type of relationship in a given entry among `cause`, `enable`, `intend`, or `prevent`
 - `st2` identify the subject and the object of a given relationship for each entry
@@ -14,7 +15,8 @@ However, when the model is called both tasks are done regardless if the pipeline
 
 Create and populate the `pretrained_models` folder.
 The hierarchy for storing the pretrained models should look like
-```
+
+```yaml
 pretrained_models:
   st0:
     roberta_st0:
@@ -34,8 +36,7 @@ pretrained_models:
 
 The LLM_st3 options does not require anything for the moment. but it is still kept because a future LLM might need something stored in there.
 
-When adding new files into `st0` or `rebel_st3` be mindful of keeping the file as the same file type as shown in the example. 
-
+When adding new files into `st0` or `rebel_st3` be mindful of keeping the file as the same file type as shown in the example.
 
 
 TBW where to find these files
@@ -53,8 +54,8 @@ then run the image with
 
     docker run -d -p 5002:5004 -v $(pwd)/pretrained_models:/pretrained_models -v $(pwd)/out:/out --name kflow_rel_extraction kflow/rel_extraction
 
-When running the link that is given in the terminal change the local port number to the number that you exported from your local machine. 
-for the previous example it would be http://127.0.0.1:5004/swagger/
+When running the link that is given in the terminal change the local port number to the number that you exported from your local machine.
+For the previous example it would be http://127.0.0.1:5004/swagger/
 > (Be sure to add the /swagger to the end of the link)
 
 

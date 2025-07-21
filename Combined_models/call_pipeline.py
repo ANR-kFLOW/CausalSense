@@ -12,6 +12,13 @@ available_llms = {
     "solar": "bhavinjawade/SOLAR-10B-OrcaDPO-Jawade",
     "gpt4": "OpenAI-GPT4"  # Added GPT-4
 }
+
+# load the default configuration
+default_config = configparser.ConfigParser()
+default_config.read('config_default.cfg')
+default_dict = {section: dict(default_config.items(section)) for section in default_config.sections()}
+
+
 #this will return a dict with the preset labels for all of the presets used
 def build_preset_label(t_f, filter, st1, st2, preset_labels):
     presets_dict = {}
@@ -134,7 +141,6 @@ def create_config(build_dict):
 
 
 def parse_args():
-    
     parser = argparse.ArgumentParser(
         description="Finetune a transformers model on a text classification task (NER) with accelerate library"
     )
@@ -183,7 +189,7 @@ def main_call(param=None, flag=False):
         args.st2_mod = param['st2']
         
         args.llms_api_key = param['api']
-        
+    
     default_used = False
     user_dict = {}
     arg_list = [args.test_file, args.filter_mod, args.st1_mod, args.st2_mod, args.text_from_user]
@@ -196,6 +202,7 @@ def main_call(param=None, flag=False):
     if args.skip_st1 != 'False' or args.skip_st2 != 'False':
         user_submitted = True
         
+
     #this is check is for the case when a user submits a config file
     if args.config_path != 'None':
         #this part updates the current arguments to the ones defined in the config file
@@ -206,72 +213,13 @@ def main_call(param=None, flag=False):
                 if hasattr(args, key):
                     attr_type = type(value)
                     setattr(args, key, attr_type(config['TEMP'][key]))
-        #this defines the dictionary representing the inputs from the user and filling in None when not provided            
-        user_dict['text'] = args.test_file
-        user_dict['filter_mod'] = args.filter_mod
-        user_dict['st1_mod'] = args.st1_mod
-        user_dict['st2_mod'] = args.st2_mod
-        
-        user_dict['filter_threshold'] = args.filter_threshold
-        user_dict['llms_api_key'] = args.llms_api_key
-        
-        user_dict['skip_st1'] = args.skip_st1
-        user_dict['skip_st2'] = args.skip_st2
-        
-        user_dict['override_preset'] = args.override_preset
-    else:
-        if user_submitted:
-            #this is the same as the last block except this time the user provides arguements through the command prompt
-            user_dict['text'] = args.test_file
-            user_dict['filter_mod'] = args.filter_mod
-            user_dict['st1_mod'] = args.st1_mod
-            user_dict['st2_mod'] = args.st2_mod
             
-            user_dict['filter_threshold'] = args.filter_threshold
-            user_dict['llms_api_key'] = args.llms_api_key
-            
-            user_dict['skip_st1'] = args.skip_st1
-            user_dict['skip_st2'] = args.skip_st2
-            
-            user_dict['override_preset'] = args.override_preset
-        else:
-            #print('default used')
-            #this is the default if nothing has been provided by the user
-            default_config = configparser.ConfigParser()
-            default_config.read('config_default.cfg')
-            default_dict = {section: dict(default_config.items(section)) for section in default_config.sections()}
-            
-            build_dict = default_dict['TEMP']
-            
-            build_dict['text'] = default_dict['TEMP']['test_file']
-            build_dict['filter_threshold'] = args.filter_threshold
-            build_dict['llms_api_key'] = args.llms_api_key
-            
-            build_dict['skip_st1'] = args.skip_st1
-            build_dict['skip_st2'] = args.skip_st2
-            
-            build_dict['override_preset'] = args.override_preset
-            
-            config = create_config(build_dict)
-            with open('config_temp.cfg', 'w') as configfile:
-                config.write(configfile)
-                
-            json_dict = run_pipeline('config_temp.cfg')
-            #print(json_dict)
-            df = pd.DataFrame(json_dict)
-            if isinstance(df, str):
-                print('There are no causal sentences')
-            else:
-                df.to_csv('combined_outs/'f'final-combined_pred-{datetime.now()}.csv')
-            default_used = True
-    
-    #this is so that the file stops here if the default is used
-    if not default_used:    
-        #this loads up a dict from the default config
-        default_config = configparser.ConfigParser()
-        default_config.read('config_default.cfg')
-        default_dict = {section: dict(default_config.items(section)) for section in default_config.sections()}
-        build_dict = user_dict
+        user_submitted = True # in order to trigger next if
+
+    if user_submitted:
+        #this defines the dictionary representing the inputs from the user and filling in None when not provided
+        build_dict = vars(args)      
+        build_dict['text'] = args.test_file
         
         #These checks make changes based on whether a subtask is being skipped
         if build_dict['skip_st1'] != 'False':
@@ -288,37 +236,51 @@ def main_call(param=None, flag=False):
             build_dict['text'] = args.text_from_user
             
         #these checks fill in the parts that the user did not specify with the default parameters
+
+        def_dict = default_dict['TEMP']
+
         if build_dict['filter_mod'] == 'None':
-            build_dict['filter_mod'] = default_dict['TEMP']['filter_mod']
+            build_dict['filter_mod'] = def_dict['filter_mod']
             
         if build_dict['st1_mod'] == 'None' and build_dict['skip_st1'] == 'False':
-            build_dict['st1_mod'] = default_dict['TEMP']['st1_mod']
+            build_dict['st1_mod'] = def_dict['st1_mod']
             
         if build_dict['st2_mod'] == 'None' and build_dict['skip_st2'] == 'False':
-            build_dict['st2_mod'] = default_dict['TEMP']['st2_mod']
+            build_dict['st2_mod'] = def_dict['st2_mod']
          
         if build_dict['st1_mod'] == 'gpt-4' or build_dict['st2_mod'] == 'gpt-4':
             if build_dict['llms_api_key'] == 'None':
                 print('You need to give an OpenAI api key if you are going to prompt gpt-4')
                 return 0
-        #this creates the config file from the build dict which contains all of the necessary information to make a config file
-        #everything that the user did not specify is filled with the default
-        config = create_config(build_dict)
-        with open('config_temp.cfg', 'w') as configfile:
-            config.write(configfile)
-        #now the newly created config file will be used    
-        json_dict = run_pipeline('config_temp.cfg')
-        #print(json_dict)
+            
+    else:
+        #this is the default if nothing has been provided by user
+        build_dict = default_dict['TEMP'].copy()
+        
+        build_dict['text'] = build_dict['test_file']
+        build_dict['filter_threshold'] = args.filter_threshold
+        build_dict['llms_api_key'] = args.llms_api_key
+        build_dict['skip_st1'] = args.skip_st1
+        build_dict['skip_st2'] = args.skip_st2
+        build_dict['override_preset'] = args.override_preset
+
+    #this creates the config file from the build dict which contains all of the necessary information to make a config file
+    config = create_config(build_dict)
+    with open('config_temp.cfg', 'w') as configfile:
+        config.write(configfile)
+
+    #now the newly created config file will be used    
+    json_dict = run_pipeline(config)
+    
+    # if there isn't any detected relations 
+    if len(json_dict) == 0:
+        print('There are no causal sentences')
+    else:
         df = pd.DataFrame(json_dict)
-        
-        #this just checks if the filter was able to find at least one causal sentence. 
-        if isinstance(df, str):
-            print('There are no causal sentences')
-        else:
-            df.to_csv('combined_outs/'f'final-combined_pred-{datetime.now()}.csv')
-            return df
-        
-
-
+        os.makedirs('out', exist_ok = True)
+        df.to_csv('out/'f'final-combined_pred-{datetime.now()}.csv')
+    
+    return json_dict
+    
 if __name__ == "__main__":
     main_call()

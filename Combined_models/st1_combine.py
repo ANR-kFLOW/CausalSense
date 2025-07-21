@@ -11,8 +11,8 @@ from typing import Optional
 import torch
 import datasets
 import numpy as np
-from datasets import load_dataset, load_metric, Features, Value, Dataset, DatasetDict
-
+from datasets import load_dataset, Features, Value, Dataset, DatasetDict
+import evaluate
 import transformers
 from transformers import (
     AutoConfig,
@@ -458,9 +458,9 @@ def main_st1(args):
 
     # Get the metric function
     if data_args.st1_task_name is not None:
-        metric = load_metric("glue", data_args.st1_task_name)
+        metric = evaluate.load("glue", data_args.st1_task_name)
     else:
-        metric = load_metric("accuracy")
+        metric = evaluate.load("accuracy")
 
     # You can define your custom compute_metrics function. It takes an `EvalPrediction` object (a namedtuple with a
     # predictions and label_ids field) and has to return a dictionary string to float.

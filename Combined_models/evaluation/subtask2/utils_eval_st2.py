@@ -6,17 +6,8 @@ import itertools
 
 
 def get_combinations(list1,list2):
-
     return [list(zip(each_permutation, list2)) for each_permutation in itertools.permutations(list1, len(list2))]
 
-# def get_combinations(list1, list2):
-#   result = []
-#   for each_permutation in itertools.permutations(list1, len(list2)):
-#     temp = []
-#     for i in range(len(list2)):
-#         temp.append((each_permutation[i], list2[i]))
-#     result.append(temp)
-#   return result
 def read_predictions(submission_file):
     predictions = []
     with open(submission_file, "r") as reader:

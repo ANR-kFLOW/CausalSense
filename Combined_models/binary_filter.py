@@ -1,14 +1,10 @@
+import argparse
 import pandas as pd
 import torch
 import torch.nn as nn
-import argparse
-from transformers import RobertaTokenizer, RobertaForSequenceClassification, AdamW, get_linear_schedule_with_warmup
+from torch.optim import AdamW
 from torch.utils.data import DataLoader, Dataset
-from sklearn.metrics import accuracy_score, classification_report, f1_score
-from tqdm import tqdm
-
-
-
+from transformers import RobertaTokenizer, RobertaForSequenceClassification, get_linear_schedule_with_warmup
 
 
 # Define dataset class

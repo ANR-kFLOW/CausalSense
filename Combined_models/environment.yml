@@ -335,7 +335,7 @@ dependencies:
   - sqlite=3.45.3
   - st-annotated-text=4.0.0
   - stack_data=0.2.0
-  - streamlit=1.38.0
+  - streamlit=1.47.0
   - sympy=1.13.2
   - tenacity=8.2.3
   - terminado=0.17.1
