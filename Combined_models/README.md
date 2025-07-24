@@ -46,9 +46,7 @@ TBW where to find these files
 Build the docker image using
 
     docker build -t kflow/rel_extraction .
-    
-    # in production on linux
-    docker build --build-arg="ENV_FILE=environment_prod.yml" -t kflow/rel_extraction .
+
 
 then run the image with
 

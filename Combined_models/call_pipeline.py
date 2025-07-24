@@ -136,9 +136,6 @@ def create_config(build_dict):
         config['TEMP'].update(presets_dict)
     
     return config
-    
-
-
 
 def parse_args():
     parser = argparse.ArgumentParser(
