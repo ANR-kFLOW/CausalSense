@@ -1,0 +1,19 @@
+template: |
+  Extract the subject, object, and relation from the following sentences. The sentence has one of the following relations: cause, enable, prevent, or intend.
+  
+  Definition of cause: Connect an event with its effect.
+  Definition of intend: Connects an event with the effect it is intended to cause (independently if the result is achieved or not).
+  Definition of enable: Connect a condition with the event it is contributing to realize as an enabling factor.
+  Definition of prevent: Connect a Relata entity with the event for which it is the cause of not happening.
+  
+  Examples:
+  {examples}
+  
+  Extract the Subject, Object, and relation for the following sentence: 
+  
+  Sentence: "{input_sentence}"
+  Output format: Subject: <subject>, Object: <object>, Relation: <relation>
+  Note: Please respect the format of the output.
+input:
+  - input_sentence
+  - examples

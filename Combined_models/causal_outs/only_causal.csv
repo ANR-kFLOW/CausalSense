@@ -1,0 +1,2 @@
+text,num_rs,causal_text_w_pairs,label,triplets
+The patient was killed because of the cold. ,1.0,,0.0,<triplet> reaching <subj> agreed <obj> cause

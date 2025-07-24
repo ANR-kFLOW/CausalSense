@@ -1,0 +1,27 @@
+### All Examples
+Recall:0.8
+Precision:0.75
+F1:0.7741935483870969
+Cause_Recall:0.7692307692307693
+Cause_Precision:0.9090909090909091
+Cause_F1:0.8333333333333333
+Effect_Recall:0.8571428571428571
+Effect_Precision:0.8571428571428571
+Effect_F1:0.8571428571428571
+Signal_Recall:0.6666666666666666
+Signal_Precision:0.2857142857142857
+Signal_F1:0.4
+
+### Examples with Multiple Relations
+Recall:1.0
+Precision:0.8
+F1:0.888888888888889
+Cause_Recall:1.0
+Cause_Precision:1.0
+Cause_F1:1.0
+Effect_Recall:1.0
+Effect_Precision:1.0
+Effect_F1:1.0
+Signal_Recall:0.0
+Signal_Precision:0.0
+Signal_F1:0.0
