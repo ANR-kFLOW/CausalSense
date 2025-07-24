@@ -1,20 +1,13 @@
 openapi: 3.0.3
 info:
-  title: Relation Detection - OpenAPI 3.3
-  description: Here we provide a platform to run and compare multiple models against each other
+  title: Relation Detection API
+  description: Extract event relations from sentences
   version: 1.0.11
 paths:
   /extract:
     get:
-      summary: Get items with individual choices
+      # summary: Get items with individual choices
       parameters:
-        - in: query
-          name: q
-          required: false
-          schema:
-            type: string
-            default:
-          description: Type here if you want to input your own sentences; please separate each sentence with a period followed by a space. If you fill in sentences, then the pipeline will only use those sentences for inference.
         - in: query
           name: st0
           required: true
@@ -23,7 +16,7 @@ paths:
             default: roberta_st0_best_model_st1.pt
             enum:
               - roberta_st0_best_model_st1.pt
-          description: Determines which pretrained model should be used for subtask 0. Subtask 0 is mandatory
+          description: Subtask 0 - Sentence Classification model(filter out sentences with no event relations)
         - in: query
           name: st1
           required: true
@@ -39,7 +32,7 @@ paths:
               - solar
               - gpt4
               - off
-          description: Determines which model should be used for subtask 1 if subtask 1 is being done
+          description: Subtask 2 - Relation Classification model or `off` to skip the subtask
         - in: query
           name: st2
           required: true
@@ -55,29 +48,78 @@ paths:
               - solar
               - gpt4
               - off
-          description: Determines which model should be used for subtask 2 if subtask 2 is being done
-        - in: query
-          name: t_f
-          required: false
-          schema:
-            type: string
-            default: test.csv
-            enum:
-              - test.csv
-          description: This is the file that the pipeline will perform an inference on. If you would like to add in new datasets to the options put the csv file in the new_data folder and make sure that the name is unique.
+          description: Subtask 2 - Relation Extration model (extract the word spans referring to events and relations) or `off` to skip the subtask
         - in: query
           name: api
           required: False
           schema:
             type: string
             default:
-          description: This is the api key that ChatGPT will use if it is called in st3.
+          description: OpenAI API key (only if you are using GPT-4)
+        - in: query
+          name: f
+          required: false
+          schema:
+            type: string
+            default: test.csv
+            enum:
+              - test.csv
+          description: File on which to perform the event relation extraction. `f` or `q` are mandatory
+        - in: query
+          name: q
+          required: false
+          schema:
+            type: string
+            default:
+          description: Sentence to analyse to find the event relation. `f` or `q` are mandatory
       responses:
         '200':
-          description: A list of items
           content:
             application/json:
               schema:
                 type: array
-                items:
-                  type: string
+                properties:
+                  label: 
+                    type: string
+                    example: cause
+                    description: relation label between "cause", "intend", "enable", "prevent"
+                  num_rs: 
+                    type: integer
+                    example: 1
+                    description: number of found relations
+                  span_pred: 
+                    type: string
+                    description: the annotated string
+                  st0_model: 
+                    type: string
+                    description: model used for sub-task 0
+                  st1_model: 
+                    type: string
+                    description: model used for sub-task 1
+                  st2_model: 
+                    type: string
+                    description: model used for sub-task 2
+                  text:
+                    description: the original string
+              example:
+                - label: cause
+                  num_rs: 1
+                  span_pred: 'At Balagangamanahalli panchayat in Dharmapuri , <ARG1>residents of Eechampatti
+                    village laid siege to the Nallampalli BDO s office <SIG0>in protest</ARG1></SIG0>
+                    against <ARG0>non supply of water</ARG0> . '
+                  st0_model: roberta
+                  st1_model: roberta
+                  st2_model: roberta
+                  text: 'At Balagangamanahalli panchayat in Dharmapuri , residents of Eechampatti
+                    village laid siege to the Nallampalli BDO s office in protest against non supply
+                    of water . '
+
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
