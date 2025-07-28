@@ -189,7 +189,7 @@ def remove_tags(text):
     
     # Pattern to match anything between < and >
     cleaned_text = re.sub(r"</?[^>]+>", "", text)
-    cleaned_text = re.sub('  ', ' ', cleaned_text)
+    cleaned_text = re.sub(' {2}', ' ', cleaned_text)
     return cleaned_text
 
 def highlight_sent(sent, tag_order, tag_list):

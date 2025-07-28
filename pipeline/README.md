@@ -66,7 +66,7 @@ docker build -f Dockerfile.demo -t kflow/rel_extraction_demo .
 then run the image with
 
 ```cli
-docker run -d -p 5003:5003 --name kflow_demo kflow/rel_extraction_demo
+docker run -d -p 5003:5004 --name kflow_demo kflow/rel_extraction_demo
 ```
 
 ## Running the pipeline manually

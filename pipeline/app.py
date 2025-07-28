@@ -321,4 +321,4 @@ def test_pipe():
 if __name__ == "__main__":
     populate_available_models()
     set_choices(SWAGGER_OUT)
-    app.run(port=DEFAULT_PORT, host='0.0.0.0', debug=True)
+    app.run(port=DEFAULT_PORT, host='0.0.0.0', debug=False)
