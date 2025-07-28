@@ -67,5 +67,5 @@ def test_model(df, path_to_model):
     print(f"Total inference time: {total_time} seconds")
     # Save predictions to a CSV file
     results_df = pd.DataFrame({'sentence': sentences, 'prediction': pred})
-    results_df.to_csv('rebel_prediction/pred_rebel.csv', index=False)
+    # results_df.to_csv('rebel_prediction/pred_rebel.csv', index=False)
     return results_df
