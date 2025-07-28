@@ -926,7 +926,7 @@ def main_st2(arg):
                 return batch
 
         data_collator = DataCollatorForTokenClassification(
-            tokenizer, pad_to_multiple_of=(8 if accelerator.use_fp16 else None)
+            tokenizer, pad_to_multiple_of=(8 if accelerator.state.use_fp16 else None)
         )
 
     if train_dataset is not None:
