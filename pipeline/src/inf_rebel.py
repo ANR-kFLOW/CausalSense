@@ -32,7 +32,7 @@ def test_model(df, path_to_model):
     else:
         model = torch.load(buffer, map_location=torch.device('cpu')).to(device)
 
-    model_config = PretrainedConfig.from_pretrained(path.join(os.path.abspath(__file__), '..', 'rebel_config'),
+    model_config = PretrainedConfig.from_pretrained(path.join(os.path.dirname(__file__), 'rebel_config'),
                                                     cache_dir='data/huggingface/')
     config = GenerationConfig.from_model_config(model_config)
     print(config)
