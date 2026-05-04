@@ -5,11 +5,11 @@ This repository contains the data and scripts used for refined causality extract
 
 ## Data
 
-The [`data` directory](https://github.com/ANR-kFLOW/Relation_extraction/tree/main/data) contains the CausalSense datasets used in our experiments.
+The [`data` directory](https://github.com/ANR-kFLOW/Relation_extraction/tree/main/data) contains the **CausalSense dataset** used in our experiments.
 
 ## Pipeline
 
-In this directory, it is contained the pipeline, the API and the demo.
+In this directory, it is contained the **pipeline**, the **API** and the **demo**.
 Please refer to the [paper](https://www.eurecom.fr/publication/8673) and to the README inside the folder.
 
 ## End-to-End Models

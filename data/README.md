@@ -39,4 +39,6 @@ The dataset is used both for **training large-scale models** and for evaluating 
 
 ---
 
-For a more detailed description of the dataset, please refer to the paper [TBA]
+For a more detailed description of the dataset, please refer to the [paper](https://www.eurecom.fr/publication/8673) ([bibtex](./rebboud2026causalsense.bib)):
+
+> Youssra Rebboud, Pasquale Lisena, and Raphael Troncy. 2026. CausalSense: Leveraging common sense knowledge and LLMs for joint event extraction and relation classification. In LREC 2026, International Conference on Language Resources and Evaluation, 11-16 May 2026, Palma, Mallorca, Spain
