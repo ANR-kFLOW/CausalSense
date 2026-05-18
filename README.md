@@ -1,5 +1,5 @@
 
-# Refined Causality Extraction from Text
+# CausalSense: Refined Causality Extraction from Text
 
 This repository contains the data and scripts used for refined causality extraction from text.
 
